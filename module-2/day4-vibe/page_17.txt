@@ -1,0 +1,113 @@
+We can summarize this approach presenting an example by a work of Arya
+et al. (2004) in which he states, among other things, that the dynamics of a
+balance sheet representation can be modeled through an ane transformation.
+Let's consider a balance sheet that has all its accounting items at zero at
+the beginning of the period and then is subjected to the following transactions.
+Equipment is purchased for $80, let the depreciation expense be $20, the stock
+is sold for $100, and cash revenue is $30.
+The Balance sheet at the end of the period will be the following:
+Assets
+Cash
+Equipment
+
+50
+80
+
+Assets
+
+130
+
+Liabilities
+Acc. Depreciation
+Capital Stock
+Income
+Liabilities + Equity
+
+20
+100
+10
+130
+
+We are in an accounting situation that can be modeled as follows. We can
+dene a Balance sheet vector with the above accounting items, each one having
+value 0 at the beginning of the period
+
+[Cash0 , Equipment0 , Acc. Depreciation0 , Capital Stock0 ] =
+
+[0,
+
+0,
+
+0,
+
+0 ]
+
+−
+→
+
+and we can dene a vector of transactions C1 (expressing the transactions
+taking place from the time step 0 to the time step 1) with values as above
+(equipment purchased for $80, depreciation expense of $20, stock sold for $100,
+cash revenue of $30) namely
+
+−
+→ 
+C1 = ca1 ,
+
+cb1 ,
+
+cc1 ,
+
+cd1
+
+
+
+=
+
+
+
+80,
+
+20,
+
+100,
+
+30
+
+
+
+So at the end of the accounting period the Balance sheet vector will be:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cash1 = −(Cash0 + ca1 ) + (Acc. Depreciation0 + cc1 )+
++(Capital Stock0 + cd1 ) =
+= −(0 + ca1 ) + (0 + cc1 ) + 0 + (cd1 ) =
+= −80 + 10 + 30 = 50
+Equipment1 = (Cash0 + ca1 ) = (0 + ca1 ) = 80
+Acc. Depreciation1 = (Equipment0 + cb1 ) = (0 + cb1 ) = 20
+Capital Stock1 = (Acc. Depreciation0 + cc1 ) = (0 + cc1 ) = 100
+
+16
+
+

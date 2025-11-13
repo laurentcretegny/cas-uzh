@@ -1,0 +1,286 @@
+principles: if a T-term is in the set L, for example [a // b], then decode it as
+the number (a - b) on the left-hand side of the equation, while if [a // b] is
+in the set R, decode it as (b - a) on the right-hand side of the equation. This
+procedure will always produce a valid equation given a zero-term.
+Naturally in bookkeeping the T-accounts in the nal equational zero-term
+would be put in the sets L and R according to the side of the initial balance
+sheet equation from which the accounts were originally encoded.
+The last thing to underline about this second main feature of the double
+entry bookkeeping method is that while the rst one, seen before, allowed to
+describe positive and negative quantities in terms only of positive numbers, in
+the case of the zero-terms or the equivalent equations into or from which they are
+translated, they provide an instant checking for the validity of the transaction
+they are referring to, as we are going to see in this next section.
+
+2.2
+
+Conclusions and remarks on the main features of the
+double entry bookkeeping system mathematical framework
+
+The two main features of the double entry bookkeeping system mathematical
+framework, that Ellerman has identied, are probably at the basis of the method
+success. As a matter of fact they give to the user of the system two very useful
+benets, especially from the point of view of the historical period in which it
+was invented as well as, at least, the rst four centuries of its use.
+The Pacioli group gives the opportunity to express the whole accounting of
+the rm, positive as well as negative ows of wealth, only through the use of
+positive numbers, which especially in the 15th century when the system was devised, was denitely a positive thing. Let's see more in detail this characteristic
+with a very simple exemplication. We have a balance sheet where the simplest
+of the balance sheet equations is updated:
+
+Assets = Liabilities + N etW orth
+
+and where we do not have temporary or ow accounts such as revenues
+or expenses, so basically we do not have a prot and loss statement. In this
+situation we will have only three accounting items, namely Assets, Liabilities
+and NetWorth, to which T-terms will refer that, having attached the accounting
+labels Assets, etc., from now on can properly be called T-accounts. It is the
+position of the account in the all-positive equation above that identies the
+14
+
+account as a left-hand side (LHS) or debit-balance account or as a right-hand
+side (RHS) or credit-balance account. Now in general debiting any x to an
+account means adding the debit T-term [x // 0] to the T-account, while crediting
+x to an account means adding the credit T-term [0 // x] to the T-account.
+It is a common mistake of non-accountants to think that debit means negative. But it all depends if the account is a LHS account or a RHS account, which,
+as in our case, can be easily assessed looking at the balance sheet equation. As
+a matter of fact to debit an account does not necessarily mean to subtract from
+the balance in the account, that is only true for credit-balance accounts, debiting
+a debit-balance account, like in our case Assets, means adding to the account's
+balance.
+The second feature of the double entry bookkeeping system, the fact that the
+zero-term representation of the balance sheet equilibrium equation, gives a quick
+check of the plausibility of the transaction, for each transaction, is even more
+important. It remains very useful today in the everyday accounting practice,
+and it was denitely more so in a period when there were no computers or
+electronic calculators especially in relation to the recording of a high number of
+transactions.
+Of course this checking opportunity would be present in any kind of transaction recording method that would be based on updating a complete accounting
+equation, since the double entry system is a system of recording transactions,
+but its feature relating to the zero-term encoding of equations makes it immediate after some practice. For example if, in relation to the above balance sheet,
+an event was formulated as the transaction of adding 200 $ to both Liabilities
+and NetWorth, some thought would be required to see that this formulation of
+a business event could not possibly be correct and much more would be required
+for a multiple entry transaction in an accounting system with a lot of accounts.
+Yet the check is immediate in the double entry system, Liabilities and NetWorth
+are both credit-balance accounts so the proposed transaction is a double credit
+transaction in violation of the double entry principle.
+
+3 From the double entry bookkeeping system to
+a linear algebra modelization of the balance
+sheet dynamics
+So far we have seen the characteristics of the double entry bookkeeping system
+mathematical framework, now let's approach the linear algebra modelization of
+the balance sheet dynamics and establish how the features previously discussed
+can be modied in order to achieve dierent goals.
+15
+
+We can summarize this approach presenting an example by a work of Arya
+et al. (2004) in which he states, among other things, that the dynamics of a
+balance sheet representation can be modeled through an ane transformation.
+Let's consider a balance sheet that has all its accounting items at zero at
+the beginning of the period and then is subjected to the following transactions.
+Equipment is purchased for $80, let the depreciation expense be $20, the stock
+is sold for $100, and cash revenue is $30.
+The Balance sheet at the end of the period will be the following:
+Assets
+Cash
+Equipment
+
+50
+80
+
+Assets
+
+130
+
+Liabilities
+Acc. Depreciation
+Capital Stock
+Income
+Liabilities + Equity
+
+20
+100
+10
+130
+
+We are in an accounting situation that can be modeled as follows. We can
+dene a Balance sheet vector with the above accounting items, each one having
+value 0 at the beginning of the period
+
+[Cash0 , Equipment0 , Acc. Depreciation0 , Capital Stock0 ] =
+
+[0,
+
+0,
+
+0,
+
+0 ]
+
+−
+→
+
+and we can dene a vector of transactions C1 (expressing the transactions
+taking place from the time step 0 to the time step 1) with values as above
+(equipment purchased for $80, depreciation expense of $20, stock sold for $100,
+cash revenue of $30) namely
+
+−
+→ 
+C1 = ca1 ,
+
+cb1 ,
+
+cc1 ,
+
+cd1
+
+
+
+=
+
+
+
+80,
+
+20,
+
+100,
+
+30
+
+
+
+So at the end of the accounting period the Balance sheet vector will be:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cash1 = −(Cash0 + ca1 ) + (Acc. Depreciation0 + cc1 )+
++(Capital Stock0 + cd1 ) =
+= −(0 + ca1 ) + (0 + cc1 ) + 0 + (cd1 ) =
+= −80 + 10 + 30 = 50
+Equipment1 = (Cash0 + ca1 ) = (0 + ca1 ) = 80
+Acc. Depreciation1 = (Equipment0 + cb1 ) = (0 + cb1 ) = 20
+Capital Stock1 = (Acc. Depreciation0 + cc1 ) = (0 + cc1 ) = 100
+
+16
+
+Naturally a system of rst order linear dierence equations can be expressed
+through a matrix representation. So considering the Balance sheet vector at the
+beginning of the period and the vector of transactions dened above, through
+the action of the following accounting matrix the Balance sheet vector at the
+end of the accounting period will be:
+
+ 
+−1
+Cash1
+  1
+ Equipment1
+ Acc. Depreciation =  0
+1
+0
+Capital Stock1
+
+
+0
+0
+1
+0
+
+1
+0
+0
+1
+
+
+ 
+
+50
+0 + 80
+1
+0  0 + 20   80 
+0  0 + 100   20 
+100
+0 + 30
+0
+
+=
+
+Basically we have just established that we can generally formalize the dynamics of the balance sheet mathematically as follows:
+
+Sn = f (Sn−1 , Cn )
+
+where Sn is the vector of the balance sheet items at time n, Cn represents
+the vector of the economic and nancial transactions occurring (or recorded)
+between time (n − 1) and time n, and f is a linear ane function on both
+arguments.
+Expressing the function above through a matrix representation, applied to
+the previous example, we will have:
+
+ 
+Cashn
+ Equipmentn
+ 
+ Acc. Depreciation = 
+n
+Capital Stockn
+
+
+m1,1
+m2,1
+m3,1
+m4,1
+
+m1,2
+m2,2
+m3,2
+m4,2
+
+m1,3
+m2,3
+m3,3
+m4,3
+
+
+
+m1,4
+Cashn−1 + can
+m2,4 
+Equipmentn−1 + cbn
+
+m3,4  Acc. Depreciationn−1 + ccn 
+m4,4
+Capital Stockn−1 + cdn
+
+In the example above we have built the balance sheet vector using only
+four accounting items, but in general we could theoretically choose as much
+accounting items as we need for the particular formalization that we have in
+mind.
+Now the rst thing that we have to underline, in the formalization that
+we have just presented, is that we have already modied one of the two main
+characteristics of the double entry mathematical framework, and rightfully so,
+17
+
+

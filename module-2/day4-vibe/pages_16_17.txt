@@ -1,0 +1,150 @@
+account as a left-hand side (LHS) or debit-balance account or as a right-hand
+side (RHS) or credit-balance account. Now in general debiting any x to an
+account means adding the debit T-term [x // 0] to the T-account, while crediting
+x to an account means adding the credit T-term [0 // x] to the T-account.
+It is a common mistake of non-accountants to think that debit means negative. But it all depends if the account is a LHS account or a RHS account, which,
+as in our case, can be easily assessed looking at the balance sheet equation. As
+a matter of fact to debit an account does not necessarily mean to subtract from
+the balance in the account, that is only true for credit-balance accounts, debiting
+a debit-balance account, like in our case Assets, means adding to the account's
+balance.
+The second feature of the double entry bookkeeping system, the fact that the
+zero-term representation of the balance sheet equilibrium equation, gives a quick
+check of the plausibility of the transaction, for each transaction, is even more
+important. It remains very useful today in the everyday accounting practice,
+and it was denitely more so in a period when there were no computers or
+electronic calculators especially in relation to the recording of a high number of
+transactions.
+Of course this checking opportunity would be present in any kind of transaction recording method that would be based on updating a complete accounting
+equation, since the double entry system is a system of recording transactions,
+but its feature relating to the zero-term encoding of equations makes it immediate after some practice. For example if, in relation to the above balance sheet,
+an event was formulated as the transaction of adding 200 $ to both Liabilities
+and NetWorth, some thought would be required to see that this formulation of
+a business event could not possibly be correct and much more would be required
+for a multiple entry transaction in an accounting system with a lot of accounts.
+Yet the check is immediate in the double entry system, Liabilities and NetWorth
+are both credit-balance accounts so the proposed transaction is a double credit
+transaction in violation of the double entry principle.
+
+3 From the double entry bookkeeping system to
+a linear algebra modelization of the balance
+sheet dynamics
+So far we have seen the characteristics of the double entry bookkeeping system
+mathematical framework, now let's approach the linear algebra modelization of
+the balance sheet dynamics and establish how the features previously discussed
+can be modied in order to achieve dierent goals.
+15
+
+We can summarize this approach presenting an example by a work of Arya
+et al. (2004) in which he states, among other things, that the dynamics of a
+balance sheet representation can be modeled through an ane transformation.
+Let's consider a balance sheet that has all its accounting items at zero at
+the beginning of the period and then is subjected to the following transactions.
+Equipment is purchased for $80, let the depreciation expense be $20, the stock
+is sold for $100, and cash revenue is $30.
+The Balance sheet at the end of the period will be the following:
+Assets
+Cash
+Equipment
+
+50
+80
+
+Assets
+
+130
+
+Liabilities
+Acc. Depreciation
+Capital Stock
+Income
+Liabilities + Equity
+
+20
+100
+10
+130
+
+We are in an accounting situation that can be modeled as follows. We can
+dene a Balance sheet vector with the above accounting items, each one having
+value 0 at the beginning of the period
+
+[Cash0 , Equipment0 , Acc. Depreciation0 , Capital Stock0 ] =
+
+[0,
+
+0,
+
+0,
+
+0 ]
+
+−
+→
+
+and we can dene a vector of transactions C1 (expressing the transactions
+taking place from the time step 0 to the time step 1) with values as above
+(equipment purchased for $80, depreciation expense of $20, stock sold for $100,
+cash revenue of $30) namely
+
+−
+→ 
+C1 = ca1 ,
+
+cb1 ,
+
+cc1 ,
+
+cd1
+
+
+
+=
+
+
+
+80,
+
+20,
+
+100,
+
+30
+
+
+
+So at the end of the accounting period the Balance sheet vector will be:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cash1 = −(Cash0 + ca1 ) + (Acc. Depreciation0 + cc1 )+
++(Capital Stock0 + cd1 ) =
+= −(0 + ca1 ) + (0 + cc1 ) + 0 + (cd1 ) =
+= −80 + 10 + 30 = 50
+Equipment1 = (Cash0 + ca1 ) = (0 + ca1 ) = 80
+Acc. Depreciation1 = (Equipment0 + cb1 ) = (0 + cb1 ) = 20
+Capital Stock1 = (Acc. Depreciation0 + cc1 ) = (0 + cc1 ) = 100
+
+16
+
+

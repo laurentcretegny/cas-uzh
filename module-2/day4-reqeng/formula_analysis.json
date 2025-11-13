@@ -1,0 +1,6503 @@
+{
+  "formulas": [
+    {
+      "cell": "D7",
+      "row": 7,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D12-SUM(D50,D8:D9)",
+      "row_label": "Assets not elsewhere classified"
+    },
+    {
+      "cell": "D9",
+      "row": 9,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=18942+15999",
+      "row_label": "Goodwill and intangible assets"
+    },
+    {
+      "cell": "E10",
+      "row": 10,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=$D10/$D18",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "F10",
+      "row": 10,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=$D10/$D18",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "G10",
+      "row": 10,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=$D10/$D18",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "H10",
+      "row": 10,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=$D10/$D18",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "I10",
+      "row": 10,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=$D10/$D18",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "J10",
+      "row": 10,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=$D10/$D18",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "E15",
+      "row": 15,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=(IAM!F15/IAM!E15)^(1/5)-1",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "F15",
+      "row": 15,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=(IAM!G15/IAM!F15)^(1/5)-1",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "G15",
+      "row": 15,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=(IAM!H15/IAM!G15)^(1/5)-1",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "H15",
+      "row": 15,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=(IAM!I15/IAM!H15)^(1/5)-1",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "I15",
+      "row": 15,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=(IAM!J15/IAM!I15)^(1/5)-1",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "J15",
+      "row": 15,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=(IAM!K15/IAM!J15)^(1/5)-1",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "D16",
+      "row": 16,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=28684/D15",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "E16",
+      "row": 16,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=(IAM!F17/IAM!E17)^(1/5)-1",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "F16",
+      "row": 16,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=(IAM!G17/IAM!F17)^(1/5)-1",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "G16",
+      "row": 16,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=(IAM!H17/IAM!G17)^(1/5)-1",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "H16",
+      "row": 16,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=(IAM!I17/IAM!H17)^(1/5)-1",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "I16",
+      "row": 16,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=(IAM!J17/IAM!I17)^(1/5)-1",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "J16",
+      "row": 16,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=(IAM!K17/IAM!J17)^(1/5)-1",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "D17",
+      "row": 17,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=(1-$D16)-D18/D15",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "E17",
+      "row": 17,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=(IAM!F20/IAM!E20)^(1/5)-1",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "F17",
+      "row": 17,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=(IAM!G20/IAM!F20)^(1/5)-1",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "G17",
+      "row": 17,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=(IAM!H20/IAM!G20)^(1/5)-1",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "H17",
+      "row": 17,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=(IAM!I20/IAM!H20)^(1/5)-1",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "I17",
+      "row": 17,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=(IAM!J20/IAM!I20)^(1/5)-1",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "J17",
+      "row": 17,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=(IAM!K20/IAM!J20)^(1/5)-1",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "E18",
+      "row": 18,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=(IAM!F21/IAM!E21)^(1/5)-1",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "F18",
+      "row": 18,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=(IAM!G21/IAM!F21)^(1/5)-1",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "G18",
+      "row": 18,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=(IAM!H21/IAM!G21)^(1/5)-1",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "H18",
+      "row": 18,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=(IAM!I21/IAM!H21)^(1/5)-1",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "I18",
+      "row": 18,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=(IAM!J21/IAM!I21)^(1/5)-1",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "J18",
+      "row": 18,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=(IAM!K21/IAM!J21)^(1/5)-1",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "D19",
+      "row": 19,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=2018/D8",
+      "row_label": "Depreciation rate (incl. amortisation)"
+    },
+    {
+      "cell": "E19",
+      "row": 19,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=$D19",
+      "row_label": "Depreciation rate (incl. amortisation)"
+    },
+    {
+      "cell": "F19",
+      "row": 19,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=$D19",
+      "row_label": "Depreciation rate (incl. amortisation)"
+    },
+    {
+      "cell": "G19",
+      "row": 19,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=$D19",
+      "row_label": "Depreciation rate (incl. amortisation)"
+    },
+    {
+      "cell": "H19",
+      "row": 19,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=$D19",
+      "row_label": "Depreciation rate (incl. amortisation)"
+    },
+    {
+      "cell": "I19",
+      "row": 19,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=$D19",
+      "row_label": "Depreciation rate (incl. amortisation)"
+    },
+    {
+      "cell": "J19",
+      "row": 19,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=$D19",
+      "row_label": "Depreciation rate (incl. amortisation)"
+    },
+    {
+      "cell": "D20",
+      "row": 20,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=624/D10",
+      "row_label": "Underlying effective debt interest rate"
+    },
+    {
+      "cell": "E20",
+      "row": 20,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=$D20",
+      "row_label": "Underlying effective debt interest rate"
+    },
+    {
+      "cell": "F20",
+      "row": 20,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=$D20",
+      "row_label": "Underlying effective debt interest rate"
+    },
+    {
+      "cell": "G20",
+      "row": 20,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=$D20",
+      "row_label": "Underlying effective debt interest rate"
+    },
+    {
+      "cell": "H20",
+      "row": 20,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=$D20",
+      "row_label": "Underlying effective debt interest rate"
+    },
+    {
+      "cell": "I20",
+      "row": 20,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=$D20",
+      "row_label": "Underlying effective debt interest rate"
+    },
+    {
+      "cell": "J20",
+      "row": 20,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=$D20",
+      "row_label": "Underlying effective debt interest rate"
+    },
+    {
+      "cell": "D21",
+      "row": 21,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=1923/SUM(D37,D39:D41)",
+      "row_label": "Underlying effective tax rate on EBT"
+    },
+    {
+      "cell": "E21",
+      "row": 21,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=$D21",
+      "row_label": "Underlying effective tax rate on EBT"
+    },
+    {
+      "cell": "F21",
+      "row": 21,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=$D21",
+      "row_label": "Underlying effective tax rate on EBT"
+    },
+    {
+      "cell": "G21",
+      "row": 21,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=$D21",
+      "row_label": "Underlying effective tax rate on EBT"
+    },
+    {
+      "cell": "H21",
+      "row": 21,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=$D21",
+      "row_label": "Underlying effective tax rate on EBT"
+    },
+    {
+      "cell": "I21",
+      "row": 21,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=$D21",
+      "row_label": "Underlying effective tax rate on EBT"
+    },
+    {
+      "cell": "J21",
+      "row": 21,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=$D21",
+      "row_label": "Underlying effective tax rate on EBT"
+    },
+    {
+      "cell": "D22",
+      "row": 22,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-Actual!$K51/$D15",
+      "row_label": "Capital expenditure (on non-financial assets)"
+    },
+    {
+      "cell": "E22",
+      "row": 22,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=-Actual!$K51/$D15",
+      "row_label": "Capital expenditure (on non-financial assets)"
+    },
+    {
+      "cell": "F22",
+      "row": 22,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=-Actual!$K51/$D15",
+      "row_label": "Capital expenditure (on non-financial assets)"
+    },
+    {
+      "cell": "G22",
+      "row": 22,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=-Actual!$K51/$D15",
+      "row_label": "Capital expenditure (on non-financial assets)"
+    },
+    {
+      "cell": "H22",
+      "row": 22,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=-Actual!$K51/$D15",
+      "row_label": "Capital expenditure (on non-financial assets)"
+    },
+    {
+      "cell": "I22",
+      "row": 22,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=-Actual!$K51/$D15",
+      "row_label": "Capital expenditure (on non-financial assets)"
+    },
+    {
+      "cell": "J22",
+      "row": 22,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=-Actual!$K51/$D15",
+      "row_label": "Capital expenditure (on non-financial assets)"
+    },
+    {
+      "cell": "D23",
+      "row": 23,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(Actual!O45:O46)",
+      "row_label": "Net change in debt"
+    },
+    {
+      "cell": "D24",
+      "row": 24,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(Actual!O44,Actual!O47)",
+      "row_label": "Net change in other liabilities"
+    },
+    {
+      "cell": "D25",
+      "row": 25,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=4279/D11",
+      "row_label": "Underlying effective dividend rate"
+    },
+    {
+      "cell": "E25",
+      "row": 25,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=D25",
+      "row_label": "Underlying effective dividend rate"
+    },
+    {
+      "cell": "F25",
+      "row": 25,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=E25",
+      "row_label": "Underlying effective dividend rate"
+    },
+    {
+      "cell": "G25",
+      "row": 25,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=F25",
+      "row_label": "Underlying effective dividend rate"
+    },
+    {
+      "cell": "H25",
+      "row": 25,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=G25",
+      "row_label": "Underlying effective dividend rate"
+    },
+    {
+      "cell": "I25",
+      "row": 25,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=H25",
+      "row_label": "Underlying effective dividend rate"
+    },
+    {
+      "cell": "J25",
+      "row": 25,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=I25",
+      "row_label": "Underlying effective dividend rate"
+    },
+    {
+      "cell": "D26",
+      "row": 26,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(Actual!O51:O52)",
+      "row_label": "Net change in equity"
+    },
+    {
+      "cell": "D27",
+      "row": 27,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(Actual!O50,Actual!O54:O55)",
+      "row_label": "Net change in other equity equivalents"
+    },
+    {
+      "cell": "B32",
+      "row": 32,
+      "col": 2,
+      "col_letter": "B",
+      "formula": "=B36",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "C32",
+      "row": 32,
+      "col": 3,
+      "col_letter": "C",
+      "formula": "=C36",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "D32",
+      "row": 32,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D15",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "E32",
+      "row": 32,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=E$37*D32*(1+E15)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "F32",
+      "row": 32,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=F$37*E32*(1+F15)^5/(E32*(1+F15)^5+E33*(1+F16)^5+E36*(1+F17)^5)",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "G32",
+      "row": 32,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=G$37*F32*(1+G15)^5/(F32*(1+G15)^5+F33*(1+G16)^5+F36*(1+G17)^5)",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "H32",
+      "row": 32,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=H$37*G32*(1+H15)^5/(G32*(1+H15)^5+G33*(1+H16)^5+G36*(1+H17)^5)",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "I32",
+      "row": 32,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=I$37*H32*(1+I15)^5/(H32*(1+I15)^5+H33*(1+I16)^5+H36*(1+I17)^5)",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "J32",
+      "row": 32,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=J$37*I32*(1+J15)^5/(I32*(1+J15)^5+I33*(1+J16)^5+I36*(1+J17)^5)",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "O32",
+      "row": 32,
+      "col": 15,
+      "col_letter": "O",
+      "formula": "=O$37*D32*(1+E15)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "P32",
+      "row": 32,
+      "col": 16,
+      "col_letter": "P",
+      "formula": "=D32*(1+E15)^5",
+      "row_label": "Revenue"
+    },
+    {
+      "cell": "B33",
+      "row": 33,
+      "col": 2,
+      "col_letter": "B",
+      "formula": "=B36",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "C33",
+      "row": 33,
+      "col": 3,
+      "col_letter": "C",
+      "formula": "=C36",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "D33",
+      "row": 33,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-$D16*D$32",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "E33",
+      "row": 33,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=E$37*D33*(1+E16)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "F33",
+      "row": 33,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=F$37*E33*(1+F16)^5/(E32*(1+F15)^5+E33*(1+F16)^5+E36*(1+F17)^5)",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "G33",
+      "row": 33,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=G$37*F33*(1+G16)^5/(F32*(1+G15)^5+F33*(1+G16)^5+F36*(1+G17)^5)",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "H33",
+      "row": 33,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=H$37*G33*(1+H16)^5/(G32*(1+H15)^5+G33*(1+H16)^5+G36*(1+H17)^5)",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "I33",
+      "row": 33,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=I$37*H33*(1+I16)^5/(H32*(1+I15)^5+H33*(1+I16)^5+H36*(1+I17)^5)",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "J33",
+      "row": 33,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=J$37*I33*(1+J16)^5/(I32*(1+J15)^5+I33*(1+J16)^5+I36*(1+J17)^5)",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "O33",
+      "row": 33,
+      "col": 15,
+      "col_letter": "O",
+      "formula": "=O$37*D33*(1+E16)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "P33",
+      "row": 33,
+      "col": 16,
+      "col_letter": "P",
+      "formula": "=D33*(1+E16)^5",
+      "row_label": "Cost of sales"
+    },
+    {
+      "cell": "D34",
+      "row": 34,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D32:D33)",
+      "row_label": "Total gross profit"
+    },
+    {
+      "cell": "E34",
+      "row": 34,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=SUM(E32:E33)",
+      "row_label": "Total gross profit"
+    },
+    {
+      "cell": "F34",
+      "row": 34,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=SUM(F32:F33)",
+      "row_label": "Total gross profit"
+    },
+    {
+      "cell": "G34",
+      "row": 34,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=SUM(G32:G33)",
+      "row_label": "Total gross profit"
+    },
+    {
+      "cell": "H34",
+      "row": 34,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=SUM(H32:H33)",
+      "row_label": "Total gross profit"
+    },
+    {
+      "cell": "I34",
+      "row": 34,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=SUM(I32:I33)",
+      "row_label": "Total gross profit"
+    },
+    {
+      "cell": "J34",
+      "row": 34,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=SUM(J32:J33)",
+      "row_label": "Total gross profit"
+    },
+    {
+      "cell": "O34",
+      "row": 34,
+      "col": 15,
+      "col_letter": "O",
+      "formula": "=SUM(O32:O33)",
+      "row_label": "Total gross profit"
+    },
+    {
+      "cell": "P34",
+      "row": 34,
+      "col": 16,
+      "col_letter": "P",
+      "formula": "=SUM(P32:P33)",
+      "row_label": "Total gross profit"
+    },
+    {
+      "cell": "D36",
+      "row": 36,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-$D17*D$32",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "E36",
+      "row": 36,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=E37*D36*(1+E17)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "F36",
+      "row": 36,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=F37*E36*(1+F17)^5/(E32*(1+F15)^5+E33*(1+F16)^5+E36*(1+F17)^5)",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "G36",
+      "row": 36,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=G37*F36*(1+G17)^5/(F32*(1+G15)^5+F33*(1+G16)^5+F36*(1+G17)^5)",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "H36",
+      "row": 36,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=H37*G36*(1+H17)^5/(G32*(1+H15)^5+G33*(1+H16)^5+G36*(1+H17)^5)",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "I36",
+      "row": 36,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=I37*H36*(1+I17)^5/(H32*(1+I15)^5+H33*(1+I16)^5+H36*(1+I17)^5)",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "J36",
+      "row": 36,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=J37*I36*(1+J17)^5/(I32*(1+J15)^5+I33*(1+J16)^5+I36*(1+J17)^5)",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "O36",
+      "row": 36,
+      "col": 15,
+      "col_letter": "O",
+      "formula": "=O37*D36*(1+E17)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "P36",
+      "row": 36,
+      "col": 16,
+      "col_letter": "P",
+      "formula": "=D36*(1+E17)^5",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    {
+      "cell": "D37",
+      "row": 37,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D34,D36)",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "E37",
+      "row": 37,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=D37*(1+E18)^5",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "F37",
+      "row": 37,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=E37*(1+F18)^5",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "G37",
+      "row": 37,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=F37*(1+G18)^5",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "H37",
+      "row": 37,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=G37*(1+H18)^5",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "I37",
+      "row": 37,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=H37*(1+I18)^5",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "J37",
+      "row": 37,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=I37*(1+J18)^5",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "O37",
+      "row": 37,
+      "col": 15,
+      "col_letter": "O",
+      "formula": "=D37*(1+E18)^5",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "P37",
+      "row": 37,
+      "col": 16,
+      "col_letter": "P",
+      "formula": "=SUM(P34,P36)",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "D39",
+      "row": 39,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-D19*D52",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "E39",
+      "row": 39,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=-E19*E52",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "F39",
+      "row": 39,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=-F19*F52",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "G39",
+      "row": 39,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=-G19*G52",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "H39",
+      "row": 39,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=-H19*H52",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "I39",
+      "row": 39,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=-I19*I52",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "J39",
+      "row": 39,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=-J19*J52",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "O39",
+      "row": 39,
+      "col": 15,
+      "col_letter": "O",
+      "formula": "=D39*(1+E$18)^5",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "P39",
+      "row": 39,
+      "col": 16,
+      "col_letter": "P",
+      "formula": "=D39*(1+E$18)^5",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "B40",
+      "row": 40,
+      "col": 2,
+      "col_letter": "B",
+      "formula": "=B20",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    {
+      "cell": "D40",
+      "row": 40,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-D20*D56",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    {
+      "cell": "E40",
+      "row": 40,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=-E20*E56",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    {
+      "cell": "F40",
+      "row": 40,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=-F20*F56",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    {
+      "cell": "G40",
+      "row": 40,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=-G20*G56",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    {
+      "cell": "H40",
+      "row": 40,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=-H20*H56",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    {
+      "cell": "I40",
+      "row": 40,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=-I20*I56",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    {
+      "cell": "J40",
+      "row": 40,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=-J20*J56",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    {
+      "cell": "O40",
+      "row": 40,
+      "col": 15,
+      "col_letter": "O",
+      "formula": "=D40*(1+E$18)^5",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    {
+      "cell": "P40",
+      "row": 40,
+      "col": 16,
+      "col_letter": "P",
+      "formula": "=D40*(1+E$18)^5",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    {
+      "cell": "D41",
+      "row": 41,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-(SUM(Actual!K31:K32,Actual!K36:K43)+D40)",
+      "row_label": "Other income and balance sheet movements"
+    },
+    {
+      "cell": "O41",
+      "row": 41,
+      "col": 15,
+      "col_letter": "O",
+      "formula": "=D41*(1+E$18)^5",
+      "row_label": "Other income and balance sheet movements"
+    },
+    {
+      "cell": "P41",
+      "row": 41,
+      "col": 16,
+      "col_letter": "P",
+      "formula": "=D41*(1+E$18)^5",
+      "row_label": "Other income and balance sheet movements"
+    },
+    {
+      "cell": "B42",
+      "row": 42,
+      "col": 2,
+      "col_letter": "B",
+      "formula": "=B21",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    {
+      "cell": "D42",
+      "row": 42,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-D21*SUM(D37,D39:D41)",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    {
+      "cell": "E42",
+      "row": 42,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=-E21*SUM(E37,E39:E41)",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    {
+      "cell": "F42",
+      "row": 42,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=-F21*SUM(F37,F39:F41)",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    {
+      "cell": "G42",
+      "row": 42,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=-G21*SUM(G37,G39:G41)",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    {
+      "cell": "H42",
+      "row": 42,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=-H21*SUM(H37,H39:H41)",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    {
+      "cell": "I42",
+      "row": 42,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=-I21*SUM(I37,I39:I41)",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    {
+      "cell": "J42",
+      "row": 42,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=-J21*SUM(J37,J39:J41)",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    {
+      "cell": "O42",
+      "row": 42,
+      "col": 15,
+      "col_letter": "O",
+      "formula": "=D42*(1+E$18)^5",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    {
+      "cell": "P42",
+      "row": 42,
+      "col": 16,
+      "col_letter": "P",
+      "formula": "=D42*(1+E$18)^5",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    {
+      "cell": "D43",
+      "row": 43,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D37,D39:D42)",
+      "row_label": "Net income"
+    },
+    {
+      "cell": "E43",
+      "row": 43,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=SUM(E37,E39:E42)",
+      "row_label": "Net income"
+    },
+    {
+      "cell": "F43",
+      "row": 43,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=SUM(F37,F39:F42)",
+      "row_label": "Net income"
+    },
+    {
+      "cell": "G43",
+      "row": 43,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=SUM(G37,G39:G42)",
+      "row_label": "Net income"
+    },
+    {
+      "cell": "H43",
+      "row": 43,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=SUM(H37,H39:H42)",
+      "row_label": "Net income"
+    },
+    {
+      "cell": "I43",
+      "row": 43,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=SUM(I37,I39:I42)",
+      "row_label": "Net income"
+    },
+    {
+      "cell": "J43",
+      "row": 43,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=SUM(J37,J39:J42)",
+      "row_label": "Net income"
+    },
+    {
+      "cell": "O43",
+      "row": 43,
+      "col": 15,
+      "col_letter": "O",
+      "formula": "=D43*(1+E$18)^5",
+      "row_label": "Net income"
+    },
+    {
+      "cell": "P43",
+      "row": 43,
+      "col": 16,
+      "col_letter": "P",
+      "formula": "=D43*(1+E$18)^5",
+      "row_label": "Net income"
+    },
+    {
+      "cell": "D45",
+      "row": 45,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D37,D39:D42)-D43",
+      "row_label": "Income statement check"
+    },
+    {
+      "cell": "E45",
+      "row": 45,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=SUM(E37,E39:E42)-E43",
+      "row_label": "Income statement check"
+    },
+    {
+      "cell": "F45",
+      "row": 45,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=SUM(F37,F39:F42)-F43",
+      "row_label": "Income statement check"
+    },
+    {
+      "cell": "G45",
+      "row": 45,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=SUM(G37,G39:G42)-G43",
+      "row_label": "Income statement check"
+    },
+    {
+      "cell": "H45",
+      "row": 45,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=SUM(H37,H39:H42)-H43",
+      "row_label": "Income statement check"
+    },
+    {
+      "cell": "I45",
+      "row": 45,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=SUM(I37,I39:I42)-I43",
+      "row_label": "Income statement check"
+    },
+    {
+      "cell": "J45",
+      "row": 45,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=SUM(J37,J39:J42)-J43",
+      "row_label": "Income statement check"
+    },
+    {
+      "cell": "O45",
+      "row": 45,
+      "col": 15,
+      "col_letter": "O",
+      "formula": "=SUM(O37,O39:O42)-O43",
+      "row_label": "Income statement check"
+    },
+    {
+      "cell": "P45",
+      "row": 45,
+      "col": 16,
+      "col_letter": "P",
+      "formula": "=SUM(P37,P39:P42)-P43",
+      "row_label": "Income statement check"
+    },
+    {
+      "cell": "D50",
+      "row": 50,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D97",
+      "row_label": "Cash and equivalents"
+    },
+    {
+      "cell": "E50",
+      "row": 50,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=E97",
+      "row_label": "Cash and equivalents"
+    },
+    {
+      "cell": "F50",
+      "row": 50,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=F97",
+      "row_label": "Cash and equivalents"
+    },
+    {
+      "cell": "G50",
+      "row": 50,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=G97",
+      "row_label": "Cash and equivalents"
+    },
+    {
+      "cell": "H50",
+      "row": 50,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=H97",
+      "row_label": "Cash and equivalents"
+    },
+    {
+      "cell": "I50",
+      "row": 50,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=I97",
+      "row_label": "Cash and equivalents"
+    },
+    {
+      "cell": "J50",
+      "row": 50,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=J97",
+      "row_label": "Cash and equivalents"
+    },
+    {
+      "cell": "D51",
+      "row": 51,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D7",
+      "row_label": "Assets not elsewhere classified"
+    },
+    {
+      "cell": "E51",
+      "row": 51,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=D51",
+      "row_label": "Assets not elsewhere classified"
+    },
+    {
+      "cell": "F51",
+      "row": 51,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=E51",
+      "row_label": "Assets not elsewhere classified"
+    },
+    {
+      "cell": "G51",
+      "row": 51,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=F51",
+      "row_label": "Assets not elsewhere classified"
+    },
+    {
+      "cell": "H51",
+      "row": 51,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=G51",
+      "row_label": "Assets not elsewhere classified"
+    },
+    {
+      "cell": "I51",
+      "row": 51,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=H51",
+      "row_label": "Assets not elsewhere classified"
+    },
+    {
+      "cell": "J51",
+      "row": 51,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=I51",
+      "row_label": "Assets not elsewhere classified"
+    },
+    {
+      "cell": "D52",
+      "row": 52,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D8",
+      "row_label": "Property, plant and equipment"
+    },
+    {
+      "cell": "E52",
+      "row": 52,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=(D52-E77)/(1+E19)",
+      "row_label": "Property, plant and equipment"
+    },
+    {
+      "cell": "F52",
+      "row": 52,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=(E52-F77)/(1+F19)",
+      "row_label": "Property, plant and equipment"
+    },
+    {
+      "cell": "G52",
+      "row": 52,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=(F52-G77)/(1+G19)",
+      "row_label": "Property, plant and equipment"
+    },
+    {
+      "cell": "H52",
+      "row": 52,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=(G52-H77)/(1+H19)",
+      "row_label": "Property, plant and equipment"
+    },
+    {
+      "cell": "I52",
+      "row": 52,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=(H52-I77)/(1+I19)",
+      "row_label": "Property, plant and equipment"
+    },
+    {
+      "cell": "J52",
+      "row": 52,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=(I52-J77)/(1+J19)",
+      "row_label": "Property, plant and equipment"
+    },
+    {
+      "cell": "D53",
+      "row": 53,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D9",
+      "row_label": "Goodwill and intangible assets"
+    },
+    {
+      "cell": "E53",
+      "row": 53,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=D53",
+      "row_label": "Goodwill and intangible assets"
+    },
+    {
+      "cell": "F53",
+      "row": 53,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=E53",
+      "row_label": "Goodwill and intangible assets"
+    },
+    {
+      "cell": "G53",
+      "row": 53,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=F53",
+      "row_label": "Goodwill and intangible assets"
+    },
+    {
+      "cell": "H53",
+      "row": 53,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=G53",
+      "row_label": "Goodwill and intangible assets"
+    },
+    {
+      "cell": "I53",
+      "row": 53,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=H53",
+      "row_label": "Goodwill and intangible assets"
+    },
+    {
+      "cell": "J53",
+      "row": 53,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=I53",
+      "row_label": "Goodwill and intangible assets"
+    },
+    {
+      "cell": "D55",
+      "row": 55,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D12-SUM(D10:D11)",
+      "row_label": "Current liabilities"
+    },
+    {
+      "cell": "E55",
+      "row": 55,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=D55",
+      "row_label": "Current liabilities"
+    },
+    {
+      "cell": "F55",
+      "row": 55,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=E55",
+      "row_label": "Current liabilities"
+    },
+    {
+      "cell": "G55",
+      "row": 55,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=F55",
+      "row_label": "Current liabilities"
+    },
+    {
+      "cell": "H55",
+      "row": 55,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=G55",
+      "row_label": "Current liabilities"
+    },
+    {
+      "cell": "I55",
+      "row": 55,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=H55",
+      "row_label": "Current liabilities"
+    },
+    {
+      "cell": "J55",
+      "row": 55,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=I55",
+      "row_label": "Current liabilities"
+    },
+    {
+      "cell": "D56",
+      "row": 56,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D10",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "E56",
+      "row": 56,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=E10*E37",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "F56",
+      "row": 56,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=F10*F37",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "G56",
+      "row": 56,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=G10*G37",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "H56",
+      "row": 56,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=H10*H37",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "I56",
+      "row": 56,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=I10*I37",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "J56",
+      "row": 56,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=J10*J37",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    {
+      "cell": "D57",
+      "row": 57,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D11",
+      "row_label": "Shareholders' equity"
+    },
+    {
+      "cell": "E57",
+      "row": 57,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=D57",
+      "row_label": "Shareholders' equity"
+    },
+    {
+      "cell": "F57",
+      "row": 57,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=E57",
+      "row_label": "Shareholders' equity"
+    },
+    {
+      "cell": "G57",
+      "row": 57,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=F57",
+      "row_label": "Shareholders' equity"
+    },
+    {
+      "cell": "H57",
+      "row": 57,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=G57",
+      "row_label": "Shareholders' equity"
+    },
+    {
+      "cell": "I57",
+      "row": 57,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=H57",
+      "row_label": "Shareholders' equity"
+    },
+    {
+      "cell": "J57",
+      "row": 57,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=I57",
+      "row_label": "Shareholders' equity"
+    },
+    {
+      "cell": "E58",
+      "row": 58,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=D58+E43-E88",
+      "row_label": "Retained earnings"
+    },
+    {
+      "cell": "F58",
+      "row": 58,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=E58+F43-F88",
+      "row_label": "Retained earnings"
+    },
+    {
+      "cell": "G58",
+      "row": 58,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=F58+G43-G88",
+      "row_label": "Retained earnings"
+    },
+    {
+      "cell": "H58",
+      "row": 58,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=G58+H43-H88",
+      "row_label": "Retained earnings"
+    },
+    {
+      "cell": "I58",
+      "row": 58,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=H58+I43-I88",
+      "row_label": "Retained earnings"
+    },
+    {
+      "cell": "J58",
+      "row": 58,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=I58+J43-J88",
+      "row_label": "Retained earnings"
+    },
+    {
+      "cell": "D60",
+      "row": 60,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D50:D53)-SUM(D55:D58)",
+      "row_label": "Balance sheet check"
+    },
+    {
+      "cell": "E60",
+      "row": 60,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=SUM(E50:E53)-SUM(E55:E58)",
+      "row_label": "Balance sheet check"
+    },
+    {
+      "cell": "F60",
+      "row": 60,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=SUM(F50:F53)-SUM(F55:F58)",
+      "row_label": "Balance sheet check"
+    },
+    {
+      "cell": "G60",
+      "row": 60,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=SUM(G50:G53)-SUM(G55:G58)",
+      "row_label": "Balance sheet check"
+    },
+    {
+      "cell": "H60",
+      "row": 60,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=SUM(H50:H53)-SUM(H55:H58)",
+      "row_label": "Balance sheet check"
+    },
+    {
+      "cell": "I60",
+      "row": 60,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=SUM(I50:I53)-SUM(I55:I58)",
+      "row_label": "Balance sheet check"
+    },
+    {
+      "cell": "J60",
+      "row": 60,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=SUM(J50:J53)-SUM(J55:J58)",
+      "row_label": "Balance sheet check"
+    },
+    {
+      "cell": "D65",
+      "row": 65,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D37",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "E65",
+      "row": 65,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=E37",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "F65",
+      "row": 65,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=F37",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "G65",
+      "row": 65,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=G37",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "H65",
+      "row": 65,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=H37",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "I65",
+      "row": 65,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=I37",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "J65",
+      "row": 65,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=J37",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    {
+      "cell": "D66",
+      "row": 66,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D39",
+      "row_label": "Depreciation (incl. amortisation)"
+    },
+    {
+      "cell": "E66",
+      "row": 66,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=E39",
+      "row_label": "Depreciation (incl. amortisation)"
+    },
+    {
+      "cell": "F66",
+      "row": 66,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=F39",
+      "row_label": "Depreciation (incl. amortisation)"
+    },
+    {
+      "cell": "G66",
+      "row": 66,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=G39",
+      "row_label": "Depreciation (incl. amortisation)"
+    },
+    {
+      "cell": "H66",
+      "row": 66,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=H39",
+      "row_label": "Depreciation (incl. amortisation)"
+    },
+    {
+      "cell": "I66",
+      "row": 66,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=I39",
+      "row_label": "Depreciation (incl. amortisation)"
+    },
+    {
+      "cell": "J66",
+      "row": 66,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=J39",
+      "row_label": "Depreciation (incl. amortisation)"
+    },
+    {
+      "cell": "D67",
+      "row": 67,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-SUM(Actual!K36:K43)",
+      "row_label": "Other balance sheet movements"
+    },
+    {
+      "cell": "D68",
+      "row": 68,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D65:D67)",
+      "row_label": "EBITA (Operating income/profit)"
+    },
+    {
+      "cell": "E68",
+      "row": 68,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=SUM(E65:E67)",
+      "row_label": "EBITA (Operating income/profit)"
+    },
+    {
+      "cell": "F68",
+      "row": 68,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=SUM(F65:F67)",
+      "row_label": "EBITA (Operating income/profit)"
+    },
+    {
+      "cell": "G68",
+      "row": 68,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=SUM(G65:G67)",
+      "row_label": "EBITA (Operating income/profit)"
+    },
+    {
+      "cell": "H68",
+      "row": 68,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=SUM(H65:H67)",
+      "row_label": "EBITA (Operating income/profit)"
+    },
+    {
+      "cell": "I68",
+      "row": 68,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=SUM(I65:I67)",
+      "row_label": "EBITA (Operating income/profit)"
+    },
+    {
+      "cell": "J68",
+      "row": 68,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=SUM(J65:J67)",
+      "row_label": "EBITA (Operating income/profit)"
+    },
+    {
+      "cell": "D70",
+      "row": 70,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D42",
+      "row_label": "Corporate tax on EBT"
+    },
+    {
+      "cell": "E70",
+      "row": 70,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=E42",
+      "row_label": "Corporate tax on EBT"
+    },
+    {
+      "cell": "F70",
+      "row": 70,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=F42",
+      "row_label": "Corporate tax on EBT"
+    },
+    {
+      "cell": "G70",
+      "row": 70,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=G42",
+      "row_label": "Corporate tax on EBT"
+    },
+    {
+      "cell": "H70",
+      "row": 70,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=H42",
+      "row_label": "Corporate tax on EBT"
+    },
+    {
+      "cell": "I70",
+      "row": 70,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=I42",
+      "row_label": "Corporate tax on EBT"
+    },
+    {
+      "cell": "J70",
+      "row": 70,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=J42",
+      "row_label": "Corporate tax on EBT"
+    },
+    {
+      "cell": "D71",
+      "row": 71,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D68,D70)",
+      "row_label": "NOPAT"
+    },
+    {
+      "cell": "E71",
+      "row": 71,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=SUM(E68,E70)",
+      "row_label": "NOPAT"
+    },
+    {
+      "cell": "F71",
+      "row": 71,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=SUM(F68,F70)",
+      "row_label": "NOPAT"
+    },
+    {
+      "cell": "G71",
+      "row": 71,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=SUM(G68,G70)",
+      "row_label": "NOPAT"
+    },
+    {
+      "cell": "H71",
+      "row": 71,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=SUM(H68,H70)",
+      "row_label": "NOPAT"
+    },
+    {
+      "cell": "I71",
+      "row": 71,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=SUM(I68,I70)",
+      "row_label": "NOPAT"
+    },
+    {
+      "cell": "J71",
+      "row": 71,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=SUM(J68,J70)",
+      "row_label": "NOPAT"
+    },
+    {
+      "cell": "D73",
+      "row": 73,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-D66",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "E73",
+      "row": 73,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=-E66",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "F73",
+      "row": 73,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=-F66",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "G73",
+      "row": 73,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=-G66",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "H73",
+      "row": 73,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=-H66",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "I73",
+      "row": 73,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=-I66",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "J73",
+      "row": 73,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=-J66",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    {
+      "cell": "D74",
+      "row": 74,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D71,D73)",
+      "row_label": "Gross cash flow"
+    },
+    {
+      "cell": "E74",
+      "row": 74,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=SUM(E71,E73)",
+      "row_label": "Gross cash flow"
+    },
+    {
+      "cell": "F74",
+      "row": 74,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=SUM(F71,F73)",
+      "row_label": "Gross cash flow"
+    },
+    {
+      "cell": "G74",
+      "row": 74,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=SUM(G71,G73)",
+      "row_label": "Gross cash flow"
+    },
+    {
+      "cell": "H74",
+      "row": 74,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=SUM(H71,H73)",
+      "row_label": "Gross cash flow"
+    },
+    {
+      "cell": "I74",
+      "row": 74,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=SUM(I71,I73)",
+      "row_label": "Gross cash flow"
+    },
+    {
+      "cell": "J74",
+      "row": 74,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=SUM(J71,J73)",
+      "row_label": "Gross cash flow"
+    },
+    {
+      "cell": "D76",
+      "row": 76,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(Actual!O21:O22)",
+      "row_label": "Decrease (increase) in working capital"
+    },
+    {
+      "cell": "D77",
+      "row": 77,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-D22*D32",
+      "row_label": "Capital expenditures"
+    },
+    {
+      "cell": "E77",
+      "row": 77,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=-E22*E32",
+      "row_label": "Capital expenditures"
+    },
+    {
+      "cell": "F77",
+      "row": 77,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=-F22*F32",
+      "row_label": "Capital expenditures"
+    },
+    {
+      "cell": "G77",
+      "row": 77,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=-G22*G32",
+      "row_label": "Capital expenditures"
+    },
+    {
+      "cell": "H77",
+      "row": 77,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=-H22*H32",
+      "row_label": "Capital expenditures"
+    },
+    {
+      "cell": "I77",
+      "row": 77,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=-I22*I32",
+      "row_label": "Capital expenditures"
+    },
+    {
+      "cell": "J77",
+      "row": 77,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=-J22*J32",
+      "row_label": "Capital expenditures"
+    },
+    {
+      "cell": "D78",
+      "row": 78,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(Actual!O26:O28)",
+      "row_label": "Other cash movements in invested capital"
+    },
+    {
+      "cell": "D79",
+      "row": 79,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D74,D76:D78)",
+      "row_label": "Free cash flow"
+    },
+    {
+      "cell": "E79",
+      "row": 79,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=SUM(E74,E76:E78)",
+      "row_label": "Free cash flow"
+    },
+    {
+      "cell": "F79",
+      "row": 79,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=SUM(F74,F76:F78)",
+      "row_label": "Free cash flow"
+    },
+    {
+      "cell": "G79",
+      "row": 79,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=SUM(G74,G76:G78)",
+      "row_label": "Free cash flow"
+    },
+    {
+      "cell": "H79",
+      "row": 79,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=SUM(H74,H76:H78)",
+      "row_label": "Free cash flow"
+    },
+    {
+      "cell": "I79",
+      "row": 79,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=SUM(I74,I76:I78)",
+      "row_label": "Free cash flow"
+    },
+    {
+      "cell": "J79",
+      "row": 79,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=SUM(J74,J76:J78)",
+      "row_label": "Free cash flow"
+    },
+    {
+      "cell": "D81",
+      "row": 81,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D85:D90)-D79-D82",
+      "row_label": "Decrease (increase) in excess cash"
+    },
+    {
+      "cell": "E81",
+      "row": 81,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=SUM(E85:E90)-E79-E82",
+      "row_label": "Decrease (increase) in excess cash"
+    },
+    {
+      "cell": "F81",
+      "row": 81,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=SUM(F85:F90)-F79-F82",
+      "row_label": "Decrease (increase) in excess cash"
+    },
+    {
+      "cell": "G81",
+      "row": 81,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=SUM(G85:G90)-G79-G82",
+      "row_label": "Decrease (increase) in excess cash"
+    },
+    {
+      "cell": "H81",
+      "row": 81,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=SUM(H85:H90)-H79-H82",
+      "row_label": "Decrease (increase) in excess cash"
+    },
+    {
+      "cell": "I81",
+      "row": 81,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=SUM(I85:I90)-I79-I82",
+      "row_label": "Decrease (increase) in excess cash"
+    },
+    {
+      "cell": "J81",
+      "row": 81,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=SUM(J85:J90)-J79-J82",
+      "row_label": "Decrease (increase) in excess cash"
+    },
+    {
+      "cell": "D82",
+      "row": 82,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(Actual!O31:O34,Actual!O36:O38)",
+      "row_label": "Other nonoperating cash flows"
+    },
+    {
+      "cell": "D83",
+      "row": 83,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D79,D81:D82)",
+      "row_label": "Cash flow to investors"
+    },
+    {
+      "cell": "E83",
+      "row": 83,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=SUM(E79,E81:E82)",
+      "row_label": "Cash flow to investors"
+    },
+    {
+      "cell": "F83",
+      "row": 83,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=SUM(F79,F81:F82)",
+      "row_label": "Cash flow to investors"
+    },
+    {
+      "cell": "G83",
+      "row": 83,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=SUM(G79,G81:G82)",
+      "row_label": "Cash flow to investors"
+    },
+    {
+      "cell": "H83",
+      "row": 83,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=SUM(H79,H81:H82)",
+      "row_label": "Cash flow to investors"
+    },
+    {
+      "cell": "I83",
+      "row": 83,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=SUM(I79,I81:I82)",
+      "row_label": "Cash flow to investors"
+    },
+    {
+      "cell": "J83",
+      "row": 83,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=SUM(J79,J81:J82)",
+      "row_label": "Cash flow to investors"
+    },
+    {
+      "cell": "D85",
+      "row": 85,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-D40",
+      "row_label": "Interest paid"
+    },
+    {
+      "cell": "E85",
+      "row": 85,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=-E40",
+      "row_label": "Interest paid"
+    },
+    {
+      "cell": "F85",
+      "row": 85,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=-F40",
+      "row_label": "Interest paid"
+    },
+    {
+      "cell": "G85",
+      "row": 85,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=-G40",
+      "row_label": "Interest paid"
+    },
+    {
+      "cell": "H85",
+      "row": 85,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=-H40",
+      "row_label": "Interest paid"
+    },
+    {
+      "cell": "I85",
+      "row": 85,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=-I40",
+      "row_label": "Interest paid"
+    },
+    {
+      "cell": "J85",
+      "row": 85,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=-J40",
+      "row_label": "Interest paid"
+    },
+    {
+      "cell": "D86",
+      "row": 86,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D23",
+      "row_label": "Decrease (increase) in debt"
+    },
+    {
+      "cell": "E86",
+      "row": 86,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=-(E56-D56)",
+      "row_label": "Decrease (increase) in debt"
+    },
+    {
+      "cell": "F86",
+      "row": 86,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=-(F56-E56)",
+      "row_label": "Decrease (increase) in debt"
+    },
+    {
+      "cell": "G86",
+      "row": 86,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=-(G56-F56)",
+      "row_label": "Decrease (increase) in debt"
+    },
+    {
+      "cell": "H86",
+      "row": 86,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=-(H56-G56)",
+      "row_label": "Decrease (increase) in debt"
+    },
+    {
+      "cell": "I86",
+      "row": 86,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=-(I56-H56)",
+      "row_label": "Decrease (increase) in debt"
+    },
+    {
+      "cell": "J86",
+      "row": 86,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=-(J56-I56)",
+      "row_label": "Decrease (increase) in debt"
+    },
+    {
+      "cell": "D87",
+      "row": 87,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D24",
+      "row_label": "Decrease (increase) in other liabilities"
+    },
+    {
+      "cell": "D88",
+      "row": 88,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D25*D57",
+      "row_label": "Dividends paid"
+    },
+    {
+      "cell": "E88",
+      "row": 88,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=E25*E57",
+      "row_label": "Dividends paid"
+    },
+    {
+      "cell": "F88",
+      "row": 88,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=F25*F57",
+      "row_label": "Dividends paid"
+    },
+    {
+      "cell": "G88",
+      "row": 88,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=G25*G57",
+      "row_label": "Dividends paid"
+    },
+    {
+      "cell": "H88",
+      "row": 88,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=H25*H57",
+      "row_label": "Dividends paid"
+    },
+    {
+      "cell": "I88",
+      "row": 88,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=I25*I57",
+      "row_label": "Dividends paid"
+    },
+    {
+      "cell": "J88",
+      "row": 88,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=J25*J57",
+      "row_label": "Dividends paid"
+    },
+    {
+      "cell": "D89",
+      "row": 89,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D26",
+      "row_label": "Decrease (increase) in equity"
+    },
+    {
+      "cell": "D90",
+      "row": 90,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D27",
+      "row_label": "Decrease (increase) in other equity equivalents"
+    },
+    {
+      "cell": "D92",
+      "row": 92,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D83-SUM(D85:D90)",
+      "row_label": "Cash flow check"
+    },
+    {
+      "cell": "E92",
+      "row": 92,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=E83-SUM(E85:E90)",
+      "row_label": "Cash flow check"
+    },
+    {
+      "cell": "F92",
+      "row": 92,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=F83-SUM(F85:F90)",
+      "row_label": "Cash flow check"
+    },
+    {
+      "cell": "G92",
+      "row": 92,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=G83-SUM(G85:G90)",
+      "row_label": "Cash flow check"
+    },
+    {
+      "cell": "H92",
+      "row": 92,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=H83-SUM(H85:H90)",
+      "row_label": "Cash flow check"
+    },
+    {
+      "cell": "I92",
+      "row": 92,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=I83-SUM(I85:I90)",
+      "row_label": "Cash flow check"
+    },
+    {
+      "cell": "J92",
+      "row": 92,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=J83-SUM(J85:J90)",
+      "row_label": "Cash flow check"
+    },
+    {
+      "cell": "D94",
+      "row": 94,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=D6",
+      "row_label": "Opening cash and cash equivalents"
+    },
+    {
+      "cell": "E94",
+      "row": 94,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=D97",
+      "row_label": "Opening cash and cash equivalents"
+    },
+    {
+      "cell": "F94",
+      "row": 94,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=E97",
+      "row_label": "Opening cash and cash equivalents"
+    },
+    {
+      "cell": "G94",
+      "row": 94,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=F97",
+      "row_label": "Opening cash and cash equivalents"
+    },
+    {
+      "cell": "H94",
+      "row": 94,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=G97",
+      "row_label": "Opening cash and cash equivalents"
+    },
+    {
+      "cell": "I94",
+      "row": 94,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=H97",
+      "row_label": "Opening cash and cash equivalents"
+    },
+    {
+      "cell": "J94",
+      "row": 94,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=I97",
+      "row_label": "Opening cash and cash equivalents"
+    },
+    {
+      "cell": "D95",
+      "row": 95,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=-D81",
+      "row_label": "Increase (decrease) in cash and cash equivalents"
+    },
+    {
+      "cell": "E95",
+      "row": 95,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=-E81",
+      "row_label": "Increase (decrease) in cash and cash equivalents"
+    },
+    {
+      "cell": "F95",
+      "row": 95,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=-F81",
+      "row_label": "Increase (decrease) in cash and cash equivalents"
+    },
+    {
+      "cell": "G95",
+      "row": 95,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=-G81",
+      "row_label": "Increase (decrease) in cash and cash equivalents"
+    },
+    {
+      "cell": "H95",
+      "row": 95,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=-H81",
+      "row_label": "Increase (decrease) in cash and cash equivalents"
+    },
+    {
+      "cell": "I95",
+      "row": 95,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=-I81",
+      "row_label": "Increase (decrease) in cash and cash equivalents"
+    },
+    {
+      "cell": "J95",
+      "row": 95,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=-J81",
+      "row_label": "Increase (decrease) in cash and cash equivalents"
+    },
+    {
+      "cell": "D96",
+      "row": 96,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=Actual!K72",
+      "row_label": "Effect of foreign exchange rate changes"
+    },
+    {
+      "cell": "D97",
+      "row": 97,
+      "col": 4,
+      "col_letter": "D",
+      "formula": "=SUM(D94:D96)",
+      "row_label": "Closing cash and cash equivalents"
+    },
+    {
+      "cell": "E97",
+      "row": 97,
+      "col": 5,
+      "col_letter": "E",
+      "formula": "=SUM(E94:E96)",
+      "row_label": "Closing cash and cash equivalents"
+    },
+    {
+      "cell": "F97",
+      "row": 97,
+      "col": 6,
+      "col_letter": "F",
+      "formula": "=SUM(F94:F96)",
+      "row_label": "Closing cash and cash equivalents"
+    },
+    {
+      "cell": "G97",
+      "row": 97,
+      "col": 7,
+      "col_letter": "G",
+      "formula": "=SUM(G94:G96)",
+      "row_label": "Closing cash and cash equivalents"
+    },
+    {
+      "cell": "H97",
+      "row": 97,
+      "col": 8,
+      "col_letter": "H",
+      "formula": "=SUM(H94:H96)",
+      "row_label": "Closing cash and cash equivalents"
+    },
+    {
+      "cell": "I97",
+      "row": 97,
+      "col": 9,
+      "col_letter": "I",
+      "formula": "=SUM(I94:I96)",
+      "row_label": "Closing cash and cash equivalents"
+    },
+    {
+      "cell": "J97",
+      "row": 97,
+      "col": 10,
+      "col_letter": "J",
+      "formula": "=SUM(J94:J96)",
+      "row_label": "Closing cash and cash equivalents"
+    }
+  ],
+  "data_values": {
+    "B1": {
+      "value": "Forecasting Assumptions",
+      "row_label": "Row1"
+    },
+    "D1": {
+      "value": 2020,
+      "row_label": "Row1"
+    },
+    "E1": {
+      "value": 2025,
+      "row_label": "Row1"
+    },
+    "F1": {
+      "value": 2030,
+      "row_label": "Row1"
+    },
+    "G1": {
+      "value": 2035,
+      "row_label": "Row1"
+    },
+    "H1": {
+      "value": 2040,
+      "row_label": "Row1"
+    },
+    "I1": {
+      "value": 2045,
+      "row_label": "Row1"
+    },
+    "J1": {
+      "value": 2050,
+      "row_label": "Row1"
+    },
+    "L1": {
+      "value": "Assumptions to be considered",
+      "row_label": "Row1"
+    },
+    "A3": {
+      "value": "Assumptions",
+      "row_label": "Assumptions"
+    },
+    "A5": {
+      "value": "Statement of Financial Position",
+      "row_label": "Statement of Financial Position"
+    },
+    "A6": {
+      "value": "Opening cash and cash equivalents",
+      "row_label": "Opening cash and cash equivalents"
+    },
+    "D6": {
+      "value": 4116,
+      "row_label": "Opening cash and cash equivalents"
+    },
+    "A7": {
+      "value": "Assets not elsewhere classified",
+      "row_label": "Assets not elsewhere classified"
+    },
+    "A8": {
+      "value": "Property, plant and equipment",
+      "row_label": "Property, plant and equipment"
+    },
+    "D8": {
+      "value": 10558,
+      "row_label": "Property, plant and equipment"
+    },
+    "A9": {
+      "value": "Goodwill and intangible assets",
+      "row_label": "Goodwill and intangible assets"
+    },
+    "A10": {
+      "value": "Non-current liabilities (debt)",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    "B10": {
+      "value": "Fixed debt to EBITDA ratio",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    "D10": {
+      "value": 29412,
+      "row_label": "Non-current liabilities (debt)"
+    },
+    "A11": {
+      "value": "Shareholders' equity (incl. non-controlling interests)",
+      "row_label": "Shareholders' equity (incl. non-controlling interests)"
+    },
+    "D11": {
+      "value": 17655,
+      "row_label": "Shareholders' equity (incl. non-controlling interests)"
+    },
+    "A12": {
+      "value": "Total Balance Sheet",
+      "row_label": "Total Balance Sheet"
+    },
+    "D12": {
+      "value": 67659,
+      "row_label": "Total Balance Sheet"
+    },
+    "A14": {
+      "value": "Income Statement",
+      "row_label": "Income Statement"
+    },
+    "A15": {
+      "value": "Revenue",
+      "row_label": "Revenue"
+    },
+    "B15": {
+      "value": "YOY %-change from IAM",
+      "row_label": "Revenue"
+    },
+    "D15": {
+      "value": 50724,
+      "row_label": "Revenue"
+    },
+    "A16": {
+      "value": "Cost of sales",
+      "row_label": "Cost of sales"
+    },
+    "B16": {
+      "value": "YOY %-change from IAM",
+      "row_label": "Cost of sales"
+    },
+    "A17": {
+      "value": "Operating expenses (Costs of labour)",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    "B17": {
+      "value": "YOY %-change from IAM",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    "A18": {
+      "value": "EBITDA (Cash flow from operating activities)",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    "B18": {
+      "value": "YOY %-change from IAM",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    "D18": {
+      "value": 10933,
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    "A19": {
+      "value": "Depreciation rate (incl. amortisation)",
+      "row_label": "Depreciation rate (incl. amortisation)"
+    },
+    "B19": {
+      "value": "Constant rate",
+      "row_label": "Depreciation rate (incl. amortisation)"
+    },
+    "A20": {
+      "value": "Underlying effective debt interest rate",
+      "row_label": "Underlying effective debt interest rate"
+    },
+    "B20": {
+      "value": "Constant rate",
+      "row_label": "Underlying effective debt interest rate"
+    },
+    "A21": {
+      "value": "Underlying effective tax rate on EBT",
+      "row_label": "Underlying effective tax rate on EBT"
+    },
+    "B21": {
+      "value": "Constant rate",
+      "row_label": "Underlying effective tax rate on EBT"
+    },
+    "A22": {
+      "value": "Capital expenditure (on non-financial assets)",
+      "row_label": "Capital expenditure (on non-financial assets)"
+    },
+    "B22": {
+      "value": "Fixed Capex to revenue ratio",
+      "row_label": "Capital expenditure (on non-financial assets)"
+    },
+    "L22": {
+      "value": "To be linked to Inv %-change from IAM",
+      "row_label": "Capital expenditure (on non-financial assets)"
+    },
+    "A23": {
+      "value": "Net change in debt",
+      "row_label": "Net change in debt"
+    },
+    "A24": {
+      "value": "Net change in other liabilities",
+      "row_label": "Net change in other liabilities"
+    },
+    "A25": {
+      "value": "Underlying effective dividend rate",
+      "row_label": "Underlying effective dividend rate"
+    },
+    "A26": {
+      "value": "Net change in equity",
+      "row_label": "Net change in equity"
+    },
+    "A27": {
+      "value": "Net change in other equity equivalents",
+      "row_label": "Net change in other equity equivalents"
+    },
+    "A30": {
+      "value": "Income Statement",
+      "row_label": "Income Statement"
+    },
+    "O30": {
+      "value": "Balanced (2025)",
+      "row_label": "Income Statement"
+    },
+    "P30": {
+      "value": "Unbalanced (2025)",
+      "row_label": "Income Statement"
+    },
+    "A32": {
+      "value": "Revenue",
+      "row_label": "Revenue"
+    },
+    "N32": {
+      "value": "Share-(un)adjusted YOY %-change from IAM",
+      "row_label": "Revenue"
+    },
+    "A33": {
+      "value": "Cost of sales",
+      "row_label": "Cost of sales"
+    },
+    "N33": {
+      "value": "Share-(un)adjusted YOY %-change from IAM",
+      "row_label": "Cost of sales"
+    },
+    "A34": {
+      "value": "Total gross profit",
+      "row_label": "Total gross profit"
+    },
+    "A36": {
+      "value": "Operating expenses (Costs of labour)",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    "B36": {
+      "value": "Share-adjusted YOY %-change from IAM",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    "C36": {
+      "value": 2,
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    "N36": {
+      "value": "Share-adjusted YOY %-change from IAM",
+      "row_label": "Operating expenses (Costs of labour)"
+    },
+    "A37": {
+      "value": "EBITDA (Cash flow from operating activities)",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    "B37": {
+      "value": "YOY %-change from IAM",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    "C37": {
+      "value": 1,
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    "N37": {
+      "value": "YOY %-change from IAM (Total)",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    "A39": {
+      "value": "Depreciation, amortisation and impairment",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    "B39": {
+      "value": "Geometric rate on net physical assets",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    "C39": {
+      "value": "3c",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    "N39": {
+      "value": "EBITDA YOY %-change from IAM",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    "A40": {
+      "value": "Interest payments (linked to debt)",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    "C40": {
+      "value": "4b",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    "N40": {
+      "value": "EBITDA YOY %-change from IAM",
+      "row_label": "Interest payments (linked to debt)"
+    },
+    "A41": {
+      "value": "Other income and balance sheet movements",
+      "row_label": "Other income and balance sheet movements"
+    },
+    "B41": {
+      "value": "For base year reconciliation only",
+      "row_label": "Other income and balance sheet movements"
+    },
+    "N41": {
+      "value": "EBITDA YOY %-change from IAM",
+      "row_label": "Other income and balance sheet movements"
+    },
+    "A42": {
+      "value": "Corporate tax (Capital income tax)",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    "C42": {
+      "value": 5,
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    "N42": {
+      "value": "EBITDA YOY %-change from IAM",
+      "row_label": "Corporate tax (Capital income tax)"
+    },
+    "A43": {
+      "value": "Net income",
+      "row_label": "Net income"
+    },
+    "B43": {
+      "value": "Closure - Income statement residual",
+      "row_label": "Net income"
+    },
+    "N43": {
+      "value": "EBITDA YOY %-change from IAM",
+      "row_label": "Net income"
+    },
+    "A45": {
+      "value": "Income statement check",
+      "row_label": "Income statement check"
+    },
+    "N45": {
+      "value": "Total",
+      "row_label": "Income statement check"
+    },
+    "A48": {
+      "value": "Statement of Financial Position",
+      "row_label": "Statement of Financial Position"
+    },
+    "A50": {
+      "value": "Cash and equivalents",
+      "row_label": "Cash and equivalents"
+    },
+    "B50": {
+      "value": "From cash flow calculation",
+      "row_label": "Cash and equivalents"
+    },
+    "A51": {
+      "value": "Assets not elsewhere classified",
+      "row_label": "Assets not elsewhere classified"
+    },
+    "B51": {
+      "value": "No change",
+      "row_label": "Assets not elsewhere classified"
+    },
+    "A52": {
+      "value": "Property, plant and equipment",
+      "row_label": "Property, plant and equipment"
+    },
+    "B52": {
+      "value": "K(t) = [ I(t) + K(t-1) ] / [1 + \u03b4]",
+      "row_label": "Property, plant and equipment"
+    },
+    "C52": {
+      "value": "3b",
+      "row_label": "Property, plant and equipment"
+    },
+    "A53": {
+      "value": "Goodwill and intangible assets",
+      "row_label": "Goodwill and intangible assets"
+    },
+    "B53": {
+      "value": "No change",
+      "row_label": "Goodwill and intangible assets"
+    },
+    "A55": {
+      "value": "Current liabilities",
+      "row_label": "Current liabilities"
+    },
+    "B55": {
+      "value": "No change",
+      "row_label": "Current liabilities"
+    },
+    "A56": {
+      "value": "Non-current liabilities (debt)",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    "C56": {
+      "value": "4a",
+      "row_label": "Non-current liabilities (debt)"
+    },
+    "A57": {
+      "value": "Shareholders' equity",
+      "row_label": "Shareholders' equity"
+    },
+    "B57": {
+      "value": "No change",
+      "row_label": "Shareholders' equity"
+    },
+    "A58": {
+      "value": "Retained earnings",
+      "row_label": "Retained earnings"
+    },
+    "B58": {
+      "value": "RE(t) = RE(t-1) + NI(t) - Div(t)",
+      "row_label": "Retained earnings"
+    },
+    "D58": {
+      "value": 0,
+      "row_label": "Retained earnings"
+    },
+    "A60": {
+      "value": "Balance sheet check",
+      "row_label": "Balance sheet check"
+    },
+    "A63": {
+      "value": "Indirect Cash Flow",
+      "row_label": "Indirect Cash Flow"
+    },
+    "A65": {
+      "value": "EBITDA (Cash flow from operating activities)",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    "B65": {
+      "value": "From income statement",
+      "row_label": "EBITDA (Cash flow from operating activities)"
+    },
+    "A66": {
+      "value": "Depreciation (incl. amortisation)",
+      "row_label": "Depreciation (incl. amortisation)"
+    },
+    "B66": {
+      "value": "From income statement",
+      "row_label": "Depreciation (incl. amortisation)"
+    },
+    "A67": {
+      "value": "Other balance sheet movements",
+      "row_label": "Other balance sheet movements"
+    },
+    "B67": {
+      "value": "For base year reconciliation only",
+      "row_label": "Other balance sheet movements"
+    },
+    "A68": {
+      "value": "EBITA (Operating income/profit)",
+      "row_label": "EBITA (Operating income/profit)"
+    },
+    "A70": {
+      "value": "Corporate tax on EBT",
+      "row_label": "Corporate tax on EBT"
+    },
+    "B70": {
+      "value": "From income statement",
+      "row_label": "Corporate tax on EBT"
+    },
+    "A71": {
+      "value": "NOPAT",
+      "row_label": "NOPAT"
+    },
+    "A73": {
+      "value": "Depreciation, amortisation and impairment",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    "B73": {
+      "value": "From income statement",
+      "row_label": "Depreciation, amortisation and impairment"
+    },
+    "A74": {
+      "value": "Gross cash flow",
+      "row_label": "Gross cash flow"
+    },
+    "A76": {
+      "value": "Decrease (increase) in working capital",
+      "row_label": "Decrease (increase) in working capital"
+    },
+    "B76": {
+      "value": "For base year reconciliation only",
+      "row_label": "Decrease (increase) in working capital"
+    },
+    "A77": {
+      "value": "Capital expenditures",
+      "row_label": "Capital expenditures"
+    },
+    "C77": {
+      "value": "3a",
+      "row_label": "Capital expenditures"
+    },
+    "A78": {
+      "value": "Other cash movements in invested capital",
+      "row_label": "Other cash movements in invested capital"
+    },
+    "B78": {
+      "value": "For base year reconciliation only",
+      "row_label": "Other cash movements in invested capital"
+    },
+    "A79": {
+      "value": "Free cash flow",
+      "row_label": "Free cash flow"
+    },
+    "A81": {
+      "value": "Decrease (increase) in excess cash",
+      "row_label": "Decrease (increase) in excess cash"
+    },
+    "B81": {
+      "value": "Closure - Cash flow residual",
+      "row_label": "Decrease (increase) in excess cash"
+    },
+    "A82": {
+      "value": "Other nonoperating cash flows",
+      "row_label": "Other nonoperating cash flows"
+    },
+    "B82": {
+      "value": "For base year reconciliation only",
+      "row_label": "Other nonoperating cash flows"
+    },
+    "A83": {
+      "value": "Cash flow to investors",
+      "row_label": "Cash flow to investors"
+    },
+    "A85": {
+      "value": "Interest paid",
+      "row_label": "Interest paid"
+    },
+    "B85": {
+      "value": "From income statement",
+      "row_label": "Interest paid"
+    },
+    "A86": {
+      "value": "Decrease (increase) in debt",
+      "row_label": "Decrease (increase) in debt"
+    },
+    "B86": {
+      "value": "\u2206Debt = Debt(t) - Debt(t-1)",
+      "row_label": "Decrease (increase) in debt"
+    },
+    "A87": {
+      "value": "Decrease (increase) in other liabilities",
+      "row_label": "Decrease (increase) in other liabilities"
+    },
+    "B87": {
+      "value": "Included in debt",
+      "row_label": "Decrease (increase) in other liabilities"
+    },
+    "A88": {
+      "value": "Dividends paid",
+      "row_label": "Dividends paid"
+    },
+    "C88": {
+      "value": 6,
+      "row_label": "Dividends paid"
+    },
+    "A89": {
+      "value": "Decrease (increase) in equity",
+      "row_label": "Decrease (increase) in equity"
+    },
+    "A90": {
+      "value": "Decrease (increase) in other equity equivalents",
+      "row_label": "Decrease (increase) in other equity equivalents"
+    },
+    "A92": {
+      "value": "Cash flow check",
+      "row_label": "Cash flow check"
+    },
+    "A94": {
+      "value": "Opening cash and cash equivalents",
+      "row_label": "Opening cash and cash equivalents"
+    },
+    "B94": {
+      "value": "OpeningCash(t) = ClosingCash(t-1)",
+      "row_label": "Opening cash and cash equivalents"
+    },
+    "A95": {
+      "value": "Increase (decrease) in cash and cash equivalents",
+      "row_label": "Increase (decrease) in cash and cash equivalents"
+    },
+    "B95": {
+      "value": "From cash flow residual",
+      "row_label": "Increase (decrease) in cash and cash equivalents"
+    },
+    "A96": {
+      "value": "Effect of foreign exchange rate changes",
+      "row_label": "Effect of foreign exchange rate changes"
+    },
+    "B96": {
+      "value": "For base year reconciliation only",
+      "row_label": "Effect of foreign exchange rate changes"
+    },
+    "A97": {
+      "value": "Closing cash and cash equivalents",
+      "row_label": "Closing cash and cash equivalents"
+    },
+    "B97": {
+      "value": "Closure - Total cash",
+      "row_label": "Closing cash and cash equivalents"
+    }
+  },
+  "categories": {
+    "growth_rates": [],
+    "ratios": [
+      {
+        "cell": "E10",
+        "row": 10,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=$D10/$D18",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "F10",
+        "row": 10,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=$D10/$D18",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "G10",
+        "row": 10,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=$D10/$D18",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "H10",
+        "row": 10,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=$D10/$D18",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "I10",
+        "row": 10,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=$D10/$D18",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "J10",
+        "row": 10,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=$D10/$D18",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "D16",
+        "row": 16,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=28684/D15",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "D17",
+        "row": 17,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=(1-$D16)-D18/D15",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "D19",
+        "row": 19,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=2018/D8",
+        "row_label": "Depreciation rate (incl. amortisation)"
+      },
+      {
+        "cell": "D20",
+        "row": 20,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=624/D10",
+        "row_label": "Underlying effective debt interest rate"
+      },
+      {
+        "cell": "D22",
+        "row": 22,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-Actual!$K51/$D15",
+        "row_label": "Capital expenditure (on non-financial assets)"
+      },
+      {
+        "cell": "E22",
+        "row": 22,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=-Actual!$K51/$D15",
+        "row_label": "Capital expenditure (on non-financial assets)"
+      },
+      {
+        "cell": "F22",
+        "row": 22,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=-Actual!$K51/$D15",
+        "row_label": "Capital expenditure (on non-financial assets)"
+      },
+      {
+        "cell": "G22",
+        "row": 22,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=-Actual!$K51/$D15",
+        "row_label": "Capital expenditure (on non-financial assets)"
+      },
+      {
+        "cell": "H22",
+        "row": 22,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=-Actual!$K51/$D15",
+        "row_label": "Capital expenditure (on non-financial assets)"
+      },
+      {
+        "cell": "I22",
+        "row": 22,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=-Actual!$K51/$D15",
+        "row_label": "Capital expenditure (on non-financial assets)"
+      },
+      {
+        "cell": "J22",
+        "row": 22,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=-Actual!$K51/$D15",
+        "row_label": "Capital expenditure (on non-financial assets)"
+      },
+      {
+        "cell": "D25",
+        "row": 25,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=4279/D11",
+        "row_label": "Underlying effective dividend rate"
+      },
+      {
+        "cell": "E32",
+        "row": 32,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=E$37*D32*(1+E15)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "F32",
+        "row": 32,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=F$37*E32*(1+F15)^5/(E32*(1+F15)^5+E33*(1+F16)^5+E36*(1+F17)^5)",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "G32",
+        "row": 32,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=G$37*F32*(1+G15)^5/(F32*(1+G15)^5+F33*(1+G16)^5+F36*(1+G17)^5)",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "H32",
+        "row": 32,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=H$37*G32*(1+H15)^5/(G32*(1+H15)^5+G33*(1+H16)^5+G36*(1+H17)^5)",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "I32",
+        "row": 32,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=I$37*H32*(1+I15)^5/(H32*(1+I15)^5+H33*(1+I16)^5+H36*(1+I17)^5)",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "J32",
+        "row": 32,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=J$37*I32*(1+J15)^5/(I32*(1+J15)^5+I33*(1+J16)^5+I36*(1+J17)^5)",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "O32",
+        "row": 32,
+        "col": 15,
+        "col_letter": "O",
+        "formula": "=O$37*D32*(1+E15)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "E33",
+        "row": 33,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=E$37*D33*(1+E16)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "F33",
+        "row": 33,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=F$37*E33*(1+F16)^5/(E32*(1+F15)^5+E33*(1+F16)^5+E36*(1+F17)^5)",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "G33",
+        "row": 33,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=G$37*F33*(1+G16)^5/(F32*(1+G15)^5+F33*(1+G16)^5+F36*(1+G17)^5)",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "H33",
+        "row": 33,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=H$37*G33*(1+H16)^5/(G32*(1+H15)^5+G33*(1+H16)^5+G36*(1+H17)^5)",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "I33",
+        "row": 33,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=I$37*H33*(1+I16)^5/(H32*(1+I15)^5+H33*(1+I16)^5+H36*(1+I17)^5)",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "J33",
+        "row": 33,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=J$37*I33*(1+J16)^5/(I32*(1+J15)^5+I33*(1+J16)^5+I36*(1+J17)^5)",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "O33",
+        "row": 33,
+        "col": 15,
+        "col_letter": "O",
+        "formula": "=O$37*D33*(1+E16)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "E36",
+        "row": 36,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=E37*D36*(1+E17)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "F36",
+        "row": 36,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=F37*E36*(1+F17)^5/(E32*(1+F15)^5+E33*(1+F16)^5+E36*(1+F17)^5)",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "G36",
+        "row": 36,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=G37*F36*(1+G17)^5/(F32*(1+G15)^5+F33*(1+G16)^5+F36*(1+G17)^5)",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "H36",
+        "row": 36,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=H37*G36*(1+H17)^5/(G32*(1+H15)^5+G33*(1+H16)^5+G36*(1+H17)^5)",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "I36",
+        "row": 36,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=I37*H36*(1+I17)^5/(H32*(1+I15)^5+H33*(1+I16)^5+H36*(1+I17)^5)",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "J36",
+        "row": 36,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=J37*I36*(1+J17)^5/(I32*(1+J15)^5+I33*(1+J16)^5+I36*(1+J17)^5)",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "O36",
+        "row": 36,
+        "col": 15,
+        "col_letter": "O",
+        "formula": "=O37*D36*(1+E17)^5/(D32*(1+E15)^5+D33*(1+E16)^5+D36*(1+E17)^5)",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "E52",
+        "row": 52,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=(D52-E77)/(1+E19)",
+        "row_label": "Property, plant and equipment"
+      },
+      {
+        "cell": "F52",
+        "row": 52,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=(E52-F77)/(1+F19)",
+        "row_label": "Property, plant and equipment"
+      },
+      {
+        "cell": "G52",
+        "row": 52,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=(F52-G77)/(1+G19)",
+        "row_label": "Property, plant and equipment"
+      },
+      {
+        "cell": "H52",
+        "row": 52,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=(G52-H77)/(1+H19)",
+        "row_label": "Property, plant and equipment"
+      },
+      {
+        "cell": "I52",
+        "row": 52,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=(H52-I77)/(1+I19)",
+        "row_label": "Property, plant and equipment"
+      },
+      {
+        "cell": "J52",
+        "row": 52,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=(I52-J77)/(1+J19)",
+        "row_label": "Property, plant and equipment"
+      }
+    ],
+    "sums": [
+      {
+        "cell": "D7",
+        "row": 7,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D12-SUM(D50,D8:D9)",
+        "row_label": "Assets not elsewhere classified"
+      },
+      {
+        "cell": "D21",
+        "row": 21,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=1923/SUM(D37,D39:D41)",
+        "row_label": "Underlying effective tax rate on EBT"
+      },
+      {
+        "cell": "D23",
+        "row": 23,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(Actual!O45:O46)",
+        "row_label": "Net change in debt"
+      },
+      {
+        "cell": "D24",
+        "row": 24,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(Actual!O44,Actual!O47)",
+        "row_label": "Net change in other liabilities"
+      },
+      {
+        "cell": "D26",
+        "row": 26,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(Actual!O51:O52)",
+        "row_label": "Net change in equity"
+      },
+      {
+        "cell": "D27",
+        "row": 27,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(Actual!O50,Actual!O54:O55)",
+        "row_label": "Net change in other equity equivalents"
+      },
+      {
+        "cell": "D34",
+        "row": 34,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D32:D33)",
+        "row_label": "Total gross profit"
+      },
+      {
+        "cell": "E34",
+        "row": 34,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=SUM(E32:E33)",
+        "row_label": "Total gross profit"
+      },
+      {
+        "cell": "F34",
+        "row": 34,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=SUM(F32:F33)",
+        "row_label": "Total gross profit"
+      },
+      {
+        "cell": "G34",
+        "row": 34,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=SUM(G32:G33)",
+        "row_label": "Total gross profit"
+      },
+      {
+        "cell": "H34",
+        "row": 34,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=SUM(H32:H33)",
+        "row_label": "Total gross profit"
+      },
+      {
+        "cell": "I34",
+        "row": 34,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=SUM(I32:I33)",
+        "row_label": "Total gross profit"
+      },
+      {
+        "cell": "J34",
+        "row": 34,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=SUM(J32:J33)",
+        "row_label": "Total gross profit"
+      },
+      {
+        "cell": "O34",
+        "row": 34,
+        "col": 15,
+        "col_letter": "O",
+        "formula": "=SUM(O32:O33)",
+        "row_label": "Total gross profit"
+      },
+      {
+        "cell": "P34",
+        "row": 34,
+        "col": 16,
+        "col_letter": "P",
+        "formula": "=SUM(P32:P33)",
+        "row_label": "Total gross profit"
+      },
+      {
+        "cell": "D37",
+        "row": 37,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D34,D36)",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "P37",
+        "row": 37,
+        "col": 16,
+        "col_letter": "P",
+        "formula": "=SUM(P34,P36)",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "D41",
+        "row": 41,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-(SUM(Actual!K31:K32,Actual!K36:K43)+D40)",
+        "row_label": "Other income and balance sheet movements"
+      },
+      {
+        "cell": "D42",
+        "row": 42,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-D21*SUM(D37,D39:D41)",
+        "row_label": "Corporate tax (Capital income tax)"
+      },
+      {
+        "cell": "E42",
+        "row": 42,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=-E21*SUM(E37,E39:E41)",
+        "row_label": "Corporate tax (Capital income tax)"
+      },
+      {
+        "cell": "F42",
+        "row": 42,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=-F21*SUM(F37,F39:F41)",
+        "row_label": "Corporate tax (Capital income tax)"
+      },
+      {
+        "cell": "G42",
+        "row": 42,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=-G21*SUM(G37,G39:G41)",
+        "row_label": "Corporate tax (Capital income tax)"
+      },
+      {
+        "cell": "H42",
+        "row": 42,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=-H21*SUM(H37,H39:H41)",
+        "row_label": "Corporate tax (Capital income tax)"
+      },
+      {
+        "cell": "I42",
+        "row": 42,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=-I21*SUM(I37,I39:I41)",
+        "row_label": "Corporate tax (Capital income tax)"
+      },
+      {
+        "cell": "J42",
+        "row": 42,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=-J21*SUM(J37,J39:J41)",
+        "row_label": "Corporate tax (Capital income tax)"
+      },
+      {
+        "cell": "D43",
+        "row": 43,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D37,D39:D42)",
+        "row_label": "Net income"
+      },
+      {
+        "cell": "E43",
+        "row": 43,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=SUM(E37,E39:E42)",
+        "row_label": "Net income"
+      },
+      {
+        "cell": "F43",
+        "row": 43,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=SUM(F37,F39:F42)",
+        "row_label": "Net income"
+      },
+      {
+        "cell": "G43",
+        "row": 43,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=SUM(G37,G39:G42)",
+        "row_label": "Net income"
+      },
+      {
+        "cell": "H43",
+        "row": 43,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=SUM(H37,H39:H42)",
+        "row_label": "Net income"
+      },
+      {
+        "cell": "I43",
+        "row": 43,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=SUM(I37,I39:I42)",
+        "row_label": "Net income"
+      },
+      {
+        "cell": "J43",
+        "row": 43,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=SUM(J37,J39:J42)",
+        "row_label": "Net income"
+      },
+      {
+        "cell": "D45",
+        "row": 45,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D37,D39:D42)-D43",
+        "row_label": "Income statement check"
+      },
+      {
+        "cell": "E45",
+        "row": 45,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=SUM(E37,E39:E42)-E43",
+        "row_label": "Income statement check"
+      },
+      {
+        "cell": "F45",
+        "row": 45,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=SUM(F37,F39:F42)-F43",
+        "row_label": "Income statement check"
+      },
+      {
+        "cell": "G45",
+        "row": 45,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=SUM(G37,G39:G42)-G43",
+        "row_label": "Income statement check"
+      },
+      {
+        "cell": "H45",
+        "row": 45,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=SUM(H37,H39:H42)-H43",
+        "row_label": "Income statement check"
+      },
+      {
+        "cell": "I45",
+        "row": 45,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=SUM(I37,I39:I42)-I43",
+        "row_label": "Income statement check"
+      },
+      {
+        "cell": "J45",
+        "row": 45,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=SUM(J37,J39:J42)-J43",
+        "row_label": "Income statement check"
+      },
+      {
+        "cell": "O45",
+        "row": 45,
+        "col": 15,
+        "col_letter": "O",
+        "formula": "=SUM(O37,O39:O42)-O43",
+        "row_label": "Income statement check"
+      },
+      {
+        "cell": "P45",
+        "row": 45,
+        "col": 16,
+        "col_letter": "P",
+        "formula": "=SUM(P37,P39:P42)-P43",
+        "row_label": "Income statement check"
+      },
+      {
+        "cell": "D55",
+        "row": 55,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D12-SUM(D10:D11)",
+        "row_label": "Current liabilities"
+      },
+      {
+        "cell": "D60",
+        "row": 60,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D50:D53)-SUM(D55:D58)",
+        "row_label": "Balance sheet check"
+      },
+      {
+        "cell": "E60",
+        "row": 60,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=SUM(E50:E53)-SUM(E55:E58)",
+        "row_label": "Balance sheet check"
+      },
+      {
+        "cell": "F60",
+        "row": 60,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=SUM(F50:F53)-SUM(F55:F58)",
+        "row_label": "Balance sheet check"
+      },
+      {
+        "cell": "G60",
+        "row": 60,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=SUM(G50:G53)-SUM(G55:G58)",
+        "row_label": "Balance sheet check"
+      },
+      {
+        "cell": "H60",
+        "row": 60,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=SUM(H50:H53)-SUM(H55:H58)",
+        "row_label": "Balance sheet check"
+      },
+      {
+        "cell": "I60",
+        "row": 60,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=SUM(I50:I53)-SUM(I55:I58)",
+        "row_label": "Balance sheet check"
+      },
+      {
+        "cell": "J60",
+        "row": 60,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=SUM(J50:J53)-SUM(J55:J58)",
+        "row_label": "Balance sheet check"
+      },
+      {
+        "cell": "D67",
+        "row": 67,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-SUM(Actual!K36:K43)",
+        "row_label": "Other balance sheet movements"
+      },
+      {
+        "cell": "D68",
+        "row": 68,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D65:D67)",
+        "row_label": "EBITA (Operating income/profit)"
+      },
+      {
+        "cell": "E68",
+        "row": 68,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=SUM(E65:E67)",
+        "row_label": "EBITA (Operating income/profit)"
+      },
+      {
+        "cell": "F68",
+        "row": 68,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=SUM(F65:F67)",
+        "row_label": "EBITA (Operating income/profit)"
+      },
+      {
+        "cell": "G68",
+        "row": 68,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=SUM(G65:G67)",
+        "row_label": "EBITA (Operating income/profit)"
+      },
+      {
+        "cell": "H68",
+        "row": 68,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=SUM(H65:H67)",
+        "row_label": "EBITA (Operating income/profit)"
+      },
+      {
+        "cell": "I68",
+        "row": 68,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=SUM(I65:I67)",
+        "row_label": "EBITA (Operating income/profit)"
+      },
+      {
+        "cell": "J68",
+        "row": 68,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=SUM(J65:J67)",
+        "row_label": "EBITA (Operating income/profit)"
+      },
+      {
+        "cell": "D71",
+        "row": 71,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D68,D70)",
+        "row_label": "NOPAT"
+      },
+      {
+        "cell": "E71",
+        "row": 71,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=SUM(E68,E70)",
+        "row_label": "NOPAT"
+      },
+      {
+        "cell": "F71",
+        "row": 71,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=SUM(F68,F70)",
+        "row_label": "NOPAT"
+      },
+      {
+        "cell": "G71",
+        "row": 71,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=SUM(G68,G70)",
+        "row_label": "NOPAT"
+      },
+      {
+        "cell": "H71",
+        "row": 71,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=SUM(H68,H70)",
+        "row_label": "NOPAT"
+      },
+      {
+        "cell": "I71",
+        "row": 71,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=SUM(I68,I70)",
+        "row_label": "NOPAT"
+      },
+      {
+        "cell": "J71",
+        "row": 71,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=SUM(J68,J70)",
+        "row_label": "NOPAT"
+      },
+      {
+        "cell": "D74",
+        "row": 74,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D71,D73)",
+        "row_label": "Gross cash flow"
+      },
+      {
+        "cell": "E74",
+        "row": 74,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=SUM(E71,E73)",
+        "row_label": "Gross cash flow"
+      },
+      {
+        "cell": "F74",
+        "row": 74,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=SUM(F71,F73)",
+        "row_label": "Gross cash flow"
+      },
+      {
+        "cell": "G74",
+        "row": 74,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=SUM(G71,G73)",
+        "row_label": "Gross cash flow"
+      },
+      {
+        "cell": "H74",
+        "row": 74,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=SUM(H71,H73)",
+        "row_label": "Gross cash flow"
+      },
+      {
+        "cell": "I74",
+        "row": 74,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=SUM(I71,I73)",
+        "row_label": "Gross cash flow"
+      },
+      {
+        "cell": "J74",
+        "row": 74,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=SUM(J71,J73)",
+        "row_label": "Gross cash flow"
+      },
+      {
+        "cell": "D76",
+        "row": 76,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(Actual!O21:O22)",
+        "row_label": "Decrease (increase) in working capital"
+      },
+      {
+        "cell": "D78",
+        "row": 78,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(Actual!O26:O28)",
+        "row_label": "Other cash movements in invested capital"
+      },
+      {
+        "cell": "D79",
+        "row": 79,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D74,D76:D78)",
+        "row_label": "Free cash flow"
+      },
+      {
+        "cell": "E79",
+        "row": 79,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=SUM(E74,E76:E78)",
+        "row_label": "Free cash flow"
+      },
+      {
+        "cell": "F79",
+        "row": 79,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=SUM(F74,F76:F78)",
+        "row_label": "Free cash flow"
+      },
+      {
+        "cell": "G79",
+        "row": 79,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=SUM(G74,G76:G78)",
+        "row_label": "Free cash flow"
+      },
+      {
+        "cell": "H79",
+        "row": 79,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=SUM(H74,H76:H78)",
+        "row_label": "Free cash flow"
+      },
+      {
+        "cell": "I79",
+        "row": 79,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=SUM(I74,I76:I78)",
+        "row_label": "Free cash flow"
+      },
+      {
+        "cell": "J79",
+        "row": 79,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=SUM(J74,J76:J78)",
+        "row_label": "Free cash flow"
+      },
+      {
+        "cell": "D81",
+        "row": 81,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D85:D90)-D79-D82",
+        "row_label": "Decrease (increase) in excess cash"
+      },
+      {
+        "cell": "E81",
+        "row": 81,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=SUM(E85:E90)-E79-E82",
+        "row_label": "Decrease (increase) in excess cash"
+      },
+      {
+        "cell": "F81",
+        "row": 81,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=SUM(F85:F90)-F79-F82",
+        "row_label": "Decrease (increase) in excess cash"
+      },
+      {
+        "cell": "G81",
+        "row": 81,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=SUM(G85:G90)-G79-G82",
+        "row_label": "Decrease (increase) in excess cash"
+      },
+      {
+        "cell": "H81",
+        "row": 81,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=SUM(H85:H90)-H79-H82",
+        "row_label": "Decrease (increase) in excess cash"
+      },
+      {
+        "cell": "I81",
+        "row": 81,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=SUM(I85:I90)-I79-I82",
+        "row_label": "Decrease (increase) in excess cash"
+      },
+      {
+        "cell": "J81",
+        "row": 81,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=SUM(J85:J90)-J79-J82",
+        "row_label": "Decrease (increase) in excess cash"
+      },
+      {
+        "cell": "D82",
+        "row": 82,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(Actual!O31:O34,Actual!O36:O38)",
+        "row_label": "Other nonoperating cash flows"
+      },
+      {
+        "cell": "D83",
+        "row": 83,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D79,D81:D82)",
+        "row_label": "Cash flow to investors"
+      },
+      {
+        "cell": "E83",
+        "row": 83,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=SUM(E79,E81:E82)",
+        "row_label": "Cash flow to investors"
+      },
+      {
+        "cell": "F83",
+        "row": 83,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=SUM(F79,F81:F82)",
+        "row_label": "Cash flow to investors"
+      },
+      {
+        "cell": "G83",
+        "row": 83,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=SUM(G79,G81:G82)",
+        "row_label": "Cash flow to investors"
+      },
+      {
+        "cell": "H83",
+        "row": 83,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=SUM(H79,H81:H82)",
+        "row_label": "Cash flow to investors"
+      },
+      {
+        "cell": "I83",
+        "row": 83,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=SUM(I79,I81:I82)",
+        "row_label": "Cash flow to investors"
+      },
+      {
+        "cell": "J83",
+        "row": 83,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=SUM(J79,J81:J82)",
+        "row_label": "Cash flow to investors"
+      },
+      {
+        "cell": "D92",
+        "row": 92,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D83-SUM(D85:D90)",
+        "row_label": "Cash flow check"
+      },
+      {
+        "cell": "E92",
+        "row": 92,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=E83-SUM(E85:E90)",
+        "row_label": "Cash flow check"
+      },
+      {
+        "cell": "F92",
+        "row": 92,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=F83-SUM(F85:F90)",
+        "row_label": "Cash flow check"
+      },
+      {
+        "cell": "G92",
+        "row": 92,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=G83-SUM(G85:G90)",
+        "row_label": "Cash flow check"
+      },
+      {
+        "cell": "H92",
+        "row": 92,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=H83-SUM(H85:H90)",
+        "row_label": "Cash flow check"
+      },
+      {
+        "cell": "I92",
+        "row": 92,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=I83-SUM(I85:I90)",
+        "row_label": "Cash flow check"
+      },
+      {
+        "cell": "J92",
+        "row": 92,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=J83-SUM(J85:J90)",
+        "row_label": "Cash flow check"
+      },
+      {
+        "cell": "D97",
+        "row": 97,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=SUM(D94:D96)",
+        "row_label": "Closing cash and cash equivalents"
+      },
+      {
+        "cell": "E97",
+        "row": 97,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=SUM(E94:E96)",
+        "row_label": "Closing cash and cash equivalents"
+      },
+      {
+        "cell": "F97",
+        "row": 97,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=SUM(F94:F96)",
+        "row_label": "Closing cash and cash equivalents"
+      },
+      {
+        "cell": "G97",
+        "row": 97,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=SUM(G94:G96)",
+        "row_label": "Closing cash and cash equivalents"
+      },
+      {
+        "cell": "H97",
+        "row": 97,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=SUM(H94:H96)",
+        "row_label": "Closing cash and cash equivalents"
+      },
+      {
+        "cell": "I97",
+        "row": 97,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=SUM(I94:I96)",
+        "row_label": "Closing cash and cash equivalents"
+      },
+      {
+        "cell": "J97",
+        "row": 97,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=SUM(J94:J96)",
+        "row_label": "Closing cash and cash equivalents"
+      }
+    ],
+    "simple_arithmetic": [
+      {
+        "cell": "D9",
+        "row": 9,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=18942+15999",
+        "row_label": "Goodwill and intangible assets"
+      },
+      {
+        "cell": "P32",
+        "row": 32,
+        "col": 16,
+        "col_letter": "P",
+        "formula": "=D32*(1+E15)^5",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "D33",
+        "row": 33,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-$D16*D$32",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "P33",
+        "row": 33,
+        "col": 16,
+        "col_letter": "P",
+        "formula": "=D33*(1+E16)^5",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "D36",
+        "row": 36,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-$D17*D$32",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "P36",
+        "row": 36,
+        "col": 16,
+        "col_letter": "P",
+        "formula": "=D36*(1+E17)^5",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "E37",
+        "row": 37,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=D37*(1+E18)^5",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "F37",
+        "row": 37,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=E37*(1+F18)^5",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "G37",
+        "row": 37,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=F37*(1+G18)^5",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "H37",
+        "row": 37,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=G37*(1+H18)^5",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "I37",
+        "row": 37,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=H37*(1+I18)^5",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "J37",
+        "row": 37,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=I37*(1+J18)^5",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "O37",
+        "row": 37,
+        "col": 15,
+        "col_letter": "O",
+        "formula": "=D37*(1+E18)^5",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "D39",
+        "row": 39,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-D19*D52",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "E39",
+        "row": 39,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=-E19*E52",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "F39",
+        "row": 39,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=-F19*F52",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "G39",
+        "row": 39,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=-G19*G52",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "H39",
+        "row": 39,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=-H19*H52",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "I39",
+        "row": 39,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=-I19*I52",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "J39",
+        "row": 39,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=-J19*J52",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "O39",
+        "row": 39,
+        "col": 15,
+        "col_letter": "O",
+        "formula": "=D39*(1+E$18)^5",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "P39",
+        "row": 39,
+        "col": 16,
+        "col_letter": "P",
+        "formula": "=D39*(1+E$18)^5",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "D40",
+        "row": 40,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-D20*D56",
+        "row_label": "Interest payments (linked to debt)"
+      },
+      {
+        "cell": "E40",
+        "row": 40,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=-E20*E56",
+        "row_label": "Interest payments (linked to debt)"
+      },
+      {
+        "cell": "F40",
+        "row": 40,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=-F20*F56",
+        "row_label": "Interest payments (linked to debt)"
+      },
+      {
+        "cell": "G40",
+        "row": 40,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=-G20*G56",
+        "row_label": "Interest payments (linked to debt)"
+      },
+      {
+        "cell": "H40",
+        "row": 40,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=-H20*H56",
+        "row_label": "Interest payments (linked to debt)"
+      },
+      {
+        "cell": "I40",
+        "row": 40,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=-I20*I56",
+        "row_label": "Interest payments (linked to debt)"
+      },
+      {
+        "cell": "J40",
+        "row": 40,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=-J20*J56",
+        "row_label": "Interest payments (linked to debt)"
+      },
+      {
+        "cell": "O40",
+        "row": 40,
+        "col": 15,
+        "col_letter": "O",
+        "formula": "=D40*(1+E$18)^5",
+        "row_label": "Interest payments (linked to debt)"
+      },
+      {
+        "cell": "P40",
+        "row": 40,
+        "col": 16,
+        "col_letter": "P",
+        "formula": "=D40*(1+E$18)^5",
+        "row_label": "Interest payments (linked to debt)"
+      },
+      {
+        "cell": "O41",
+        "row": 41,
+        "col": 15,
+        "col_letter": "O",
+        "formula": "=D41*(1+E$18)^5",
+        "row_label": "Other income and balance sheet movements"
+      },
+      {
+        "cell": "P41",
+        "row": 41,
+        "col": 16,
+        "col_letter": "P",
+        "formula": "=D41*(1+E$18)^5",
+        "row_label": "Other income and balance sheet movements"
+      },
+      {
+        "cell": "O42",
+        "row": 42,
+        "col": 15,
+        "col_letter": "O",
+        "formula": "=D42*(1+E$18)^5",
+        "row_label": "Corporate tax (Capital income tax)"
+      },
+      {
+        "cell": "P42",
+        "row": 42,
+        "col": 16,
+        "col_letter": "P",
+        "formula": "=D42*(1+E$18)^5",
+        "row_label": "Corporate tax (Capital income tax)"
+      },
+      {
+        "cell": "O43",
+        "row": 43,
+        "col": 15,
+        "col_letter": "O",
+        "formula": "=D43*(1+E$18)^5",
+        "row_label": "Net income"
+      },
+      {
+        "cell": "P43",
+        "row": 43,
+        "col": 16,
+        "col_letter": "P",
+        "formula": "=D43*(1+E$18)^5",
+        "row_label": "Net income"
+      },
+      {
+        "cell": "E56",
+        "row": 56,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=E10*E37",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "F56",
+        "row": 56,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=F10*F37",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "G56",
+        "row": 56,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=G10*G37",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "H56",
+        "row": 56,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=H10*H37",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "I56",
+        "row": 56,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=I10*I37",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "J56",
+        "row": 56,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=J10*J37",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "E58",
+        "row": 58,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=D58+E43-E88",
+        "row_label": "Retained earnings"
+      },
+      {
+        "cell": "F58",
+        "row": 58,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=E58+F43-F88",
+        "row_label": "Retained earnings"
+      },
+      {
+        "cell": "G58",
+        "row": 58,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=F58+G43-G88",
+        "row_label": "Retained earnings"
+      },
+      {
+        "cell": "H58",
+        "row": 58,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=G58+H43-H88",
+        "row_label": "Retained earnings"
+      },
+      {
+        "cell": "I58",
+        "row": 58,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=H58+I43-I88",
+        "row_label": "Retained earnings"
+      },
+      {
+        "cell": "J58",
+        "row": 58,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=I58+J43-J88",
+        "row_label": "Retained earnings"
+      },
+      {
+        "cell": "D73",
+        "row": 73,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-D66",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "E73",
+        "row": 73,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=-E66",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "F73",
+        "row": 73,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=-F66",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "G73",
+        "row": 73,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=-G66",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "H73",
+        "row": 73,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=-H66",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "I73",
+        "row": 73,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=-I66",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "J73",
+        "row": 73,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=-J66",
+        "row_label": "Depreciation, amortisation and impairment"
+      },
+      {
+        "cell": "D77",
+        "row": 77,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-D22*D32",
+        "row_label": "Capital expenditures"
+      },
+      {
+        "cell": "E77",
+        "row": 77,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=-E22*E32",
+        "row_label": "Capital expenditures"
+      },
+      {
+        "cell": "F77",
+        "row": 77,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=-F22*F32",
+        "row_label": "Capital expenditures"
+      },
+      {
+        "cell": "G77",
+        "row": 77,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=-G22*G32",
+        "row_label": "Capital expenditures"
+      },
+      {
+        "cell": "H77",
+        "row": 77,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=-H22*H32",
+        "row_label": "Capital expenditures"
+      },
+      {
+        "cell": "I77",
+        "row": 77,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=-I22*I32",
+        "row_label": "Capital expenditures"
+      },
+      {
+        "cell": "J77",
+        "row": 77,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=-J22*J32",
+        "row_label": "Capital expenditures"
+      },
+      {
+        "cell": "D85",
+        "row": 85,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-D40",
+        "row_label": "Interest paid"
+      },
+      {
+        "cell": "E85",
+        "row": 85,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=-E40",
+        "row_label": "Interest paid"
+      },
+      {
+        "cell": "F85",
+        "row": 85,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=-F40",
+        "row_label": "Interest paid"
+      },
+      {
+        "cell": "G85",
+        "row": 85,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=-G40",
+        "row_label": "Interest paid"
+      },
+      {
+        "cell": "H85",
+        "row": 85,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=-H40",
+        "row_label": "Interest paid"
+      },
+      {
+        "cell": "I85",
+        "row": 85,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=-I40",
+        "row_label": "Interest paid"
+      },
+      {
+        "cell": "J85",
+        "row": 85,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=-J40",
+        "row_label": "Interest paid"
+      },
+      {
+        "cell": "E86",
+        "row": 86,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=-(E56-D56)",
+        "row_label": "Decrease (increase) in debt"
+      },
+      {
+        "cell": "F86",
+        "row": 86,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=-(F56-E56)",
+        "row_label": "Decrease (increase) in debt"
+      },
+      {
+        "cell": "G86",
+        "row": 86,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=-(G56-F56)",
+        "row_label": "Decrease (increase) in debt"
+      },
+      {
+        "cell": "H86",
+        "row": 86,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=-(H56-G56)",
+        "row_label": "Decrease (increase) in debt"
+      },
+      {
+        "cell": "I86",
+        "row": 86,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=-(I56-H56)",
+        "row_label": "Decrease (increase) in debt"
+      },
+      {
+        "cell": "J86",
+        "row": 86,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=-(J56-I56)",
+        "row_label": "Decrease (increase) in debt"
+      },
+      {
+        "cell": "D88",
+        "row": 88,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D25*D57",
+        "row_label": "Dividends paid"
+      },
+      {
+        "cell": "E88",
+        "row": 88,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=E25*E57",
+        "row_label": "Dividends paid"
+      },
+      {
+        "cell": "F88",
+        "row": 88,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=F25*F57",
+        "row_label": "Dividends paid"
+      },
+      {
+        "cell": "G88",
+        "row": 88,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=G25*G57",
+        "row_label": "Dividends paid"
+      },
+      {
+        "cell": "H88",
+        "row": 88,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=H25*H57",
+        "row_label": "Dividends paid"
+      },
+      {
+        "cell": "I88",
+        "row": 88,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=I25*I57",
+        "row_label": "Dividends paid"
+      },
+      {
+        "cell": "J88",
+        "row": 88,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=J25*J57",
+        "row_label": "Dividends paid"
+      },
+      {
+        "cell": "D95",
+        "row": 95,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=-D81",
+        "row_label": "Increase (decrease) in cash and cash equivalents"
+      },
+      {
+        "cell": "E95",
+        "row": 95,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=-E81",
+        "row_label": "Increase (decrease) in cash and cash equivalents"
+      },
+      {
+        "cell": "F95",
+        "row": 95,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=-F81",
+        "row_label": "Increase (decrease) in cash and cash equivalents"
+      },
+      {
+        "cell": "G95",
+        "row": 95,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=-G81",
+        "row_label": "Increase (decrease) in cash and cash equivalents"
+      },
+      {
+        "cell": "H95",
+        "row": 95,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=-H81",
+        "row_label": "Increase (decrease) in cash and cash equivalents"
+      },
+      {
+        "cell": "I95",
+        "row": 95,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=-I81",
+        "row_label": "Increase (decrease) in cash and cash equivalents"
+      },
+      {
+        "cell": "J95",
+        "row": 95,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=-J81",
+        "row_label": "Increase (decrease) in cash and cash equivalents"
+      }
+    ],
+    "references": [
+      {
+        "cell": "E19",
+        "row": 19,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=$D19",
+        "row_label": "Depreciation rate (incl. amortisation)"
+      },
+      {
+        "cell": "F19",
+        "row": 19,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=$D19",
+        "row_label": "Depreciation rate (incl. amortisation)"
+      },
+      {
+        "cell": "G19",
+        "row": 19,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=$D19",
+        "row_label": "Depreciation rate (incl. amortisation)"
+      },
+      {
+        "cell": "H19",
+        "row": 19,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=$D19",
+        "row_label": "Depreciation rate (incl. amortisation)"
+      },
+      {
+        "cell": "I19",
+        "row": 19,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=$D19",
+        "row_label": "Depreciation rate (incl. amortisation)"
+      },
+      {
+        "cell": "J19",
+        "row": 19,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=$D19",
+        "row_label": "Depreciation rate (incl. amortisation)"
+      },
+      {
+        "cell": "E20",
+        "row": 20,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=$D20",
+        "row_label": "Underlying effective debt interest rate"
+      },
+      {
+        "cell": "F20",
+        "row": 20,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=$D20",
+        "row_label": "Underlying effective debt interest rate"
+      },
+      {
+        "cell": "G20",
+        "row": 20,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=$D20",
+        "row_label": "Underlying effective debt interest rate"
+      },
+      {
+        "cell": "H20",
+        "row": 20,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=$D20",
+        "row_label": "Underlying effective debt interest rate"
+      },
+      {
+        "cell": "I20",
+        "row": 20,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=$D20",
+        "row_label": "Underlying effective debt interest rate"
+      },
+      {
+        "cell": "J20",
+        "row": 20,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=$D20",
+        "row_label": "Underlying effective debt interest rate"
+      },
+      {
+        "cell": "E21",
+        "row": 21,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=$D21",
+        "row_label": "Underlying effective tax rate on EBT"
+      },
+      {
+        "cell": "F21",
+        "row": 21,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=$D21",
+        "row_label": "Underlying effective tax rate on EBT"
+      },
+      {
+        "cell": "G21",
+        "row": 21,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=$D21",
+        "row_label": "Underlying effective tax rate on EBT"
+      },
+      {
+        "cell": "H21",
+        "row": 21,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=$D21",
+        "row_label": "Underlying effective tax rate on EBT"
+      },
+      {
+        "cell": "I21",
+        "row": 21,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=$D21",
+        "row_label": "Underlying effective tax rate on EBT"
+      },
+      {
+        "cell": "J21",
+        "row": 21,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=$D21",
+        "row_label": "Underlying effective tax rate on EBT"
+      }
+    ],
+    "other": [
+      {
+        "cell": "E15",
+        "row": 15,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=(IAM!F15/IAM!E15)^(1/5)-1",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "F15",
+        "row": 15,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=(IAM!G15/IAM!F15)^(1/5)-1",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "G15",
+        "row": 15,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=(IAM!H15/IAM!G15)^(1/5)-1",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "H15",
+        "row": 15,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=(IAM!I15/IAM!H15)^(1/5)-1",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "I15",
+        "row": 15,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=(IAM!J15/IAM!I15)^(1/5)-1",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "J15",
+        "row": 15,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=(IAM!K15/IAM!J15)^(1/5)-1",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "E16",
+        "row": 16,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=(IAM!F17/IAM!E17)^(1/5)-1",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "F16",
+        "row": 16,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=(IAM!G17/IAM!F17)^(1/5)-1",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "G16",
+        "row": 16,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=(IAM!H17/IAM!G17)^(1/5)-1",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "H16",
+        "row": 16,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=(IAM!I17/IAM!H17)^(1/5)-1",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "I16",
+        "row": 16,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=(IAM!J17/IAM!I17)^(1/5)-1",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "J16",
+        "row": 16,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=(IAM!K17/IAM!J17)^(1/5)-1",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "E17",
+        "row": 17,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=(IAM!F20/IAM!E20)^(1/5)-1",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "F17",
+        "row": 17,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=(IAM!G20/IAM!F20)^(1/5)-1",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "G17",
+        "row": 17,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=(IAM!H20/IAM!G20)^(1/5)-1",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "H17",
+        "row": 17,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=(IAM!I20/IAM!H20)^(1/5)-1",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "I17",
+        "row": 17,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=(IAM!J20/IAM!I20)^(1/5)-1",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "J17",
+        "row": 17,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=(IAM!K20/IAM!J20)^(1/5)-1",
+        "row_label": "Operating expenses (Costs of labour)"
+      },
+      {
+        "cell": "E18",
+        "row": 18,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=(IAM!F21/IAM!E21)^(1/5)-1",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "F18",
+        "row": 18,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=(IAM!G21/IAM!F21)^(1/5)-1",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "G18",
+        "row": 18,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=(IAM!H21/IAM!G21)^(1/5)-1",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "H18",
+        "row": 18,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=(IAM!I21/IAM!H21)^(1/5)-1",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "I18",
+        "row": 18,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=(IAM!J21/IAM!I21)^(1/5)-1",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "J18",
+        "row": 18,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=(IAM!K21/IAM!J21)^(1/5)-1",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "E25",
+        "row": 25,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=D25",
+        "row_label": "Underlying effective dividend rate"
+      },
+      {
+        "cell": "F25",
+        "row": 25,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=E25",
+        "row_label": "Underlying effective dividend rate"
+      },
+      {
+        "cell": "G25",
+        "row": 25,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=F25",
+        "row_label": "Underlying effective dividend rate"
+      },
+      {
+        "cell": "H25",
+        "row": 25,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=G25",
+        "row_label": "Underlying effective dividend rate"
+      },
+      {
+        "cell": "I25",
+        "row": 25,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=H25",
+        "row_label": "Underlying effective dividend rate"
+      },
+      {
+        "cell": "J25",
+        "row": 25,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=I25",
+        "row_label": "Underlying effective dividend rate"
+      },
+      {
+        "cell": "B32",
+        "row": 32,
+        "col": 2,
+        "col_letter": "B",
+        "formula": "=B36",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "C32",
+        "row": 32,
+        "col": 3,
+        "col_letter": "C",
+        "formula": "=C36",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "D32",
+        "row": 32,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D15",
+        "row_label": "Revenue"
+      },
+      {
+        "cell": "B33",
+        "row": 33,
+        "col": 2,
+        "col_letter": "B",
+        "formula": "=B36",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "C33",
+        "row": 33,
+        "col": 3,
+        "col_letter": "C",
+        "formula": "=C36",
+        "row_label": "Cost of sales"
+      },
+      {
+        "cell": "B40",
+        "row": 40,
+        "col": 2,
+        "col_letter": "B",
+        "formula": "=B20",
+        "row_label": "Interest payments (linked to debt)"
+      },
+      {
+        "cell": "B42",
+        "row": 42,
+        "col": 2,
+        "col_letter": "B",
+        "formula": "=B21",
+        "row_label": "Corporate tax (Capital income tax)"
+      },
+      {
+        "cell": "D50",
+        "row": 50,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D97",
+        "row_label": "Cash and equivalents"
+      },
+      {
+        "cell": "E50",
+        "row": 50,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=E97",
+        "row_label": "Cash and equivalents"
+      },
+      {
+        "cell": "F50",
+        "row": 50,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=F97",
+        "row_label": "Cash and equivalents"
+      },
+      {
+        "cell": "G50",
+        "row": 50,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=G97",
+        "row_label": "Cash and equivalents"
+      },
+      {
+        "cell": "H50",
+        "row": 50,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=H97",
+        "row_label": "Cash and equivalents"
+      },
+      {
+        "cell": "I50",
+        "row": 50,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=I97",
+        "row_label": "Cash and equivalents"
+      },
+      {
+        "cell": "J50",
+        "row": 50,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=J97",
+        "row_label": "Cash and equivalents"
+      },
+      {
+        "cell": "D51",
+        "row": 51,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D7",
+        "row_label": "Assets not elsewhere classified"
+      },
+      {
+        "cell": "E51",
+        "row": 51,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=D51",
+        "row_label": "Assets not elsewhere classified"
+      },
+      {
+        "cell": "F51",
+        "row": 51,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=E51",
+        "row_label": "Assets not elsewhere classified"
+      },
+      {
+        "cell": "G51",
+        "row": 51,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=F51",
+        "row_label": "Assets not elsewhere classified"
+      },
+      {
+        "cell": "H51",
+        "row": 51,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=G51",
+        "row_label": "Assets not elsewhere classified"
+      },
+      {
+        "cell": "I51",
+        "row": 51,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=H51",
+        "row_label": "Assets not elsewhere classified"
+      },
+      {
+        "cell": "J51",
+        "row": 51,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=I51",
+        "row_label": "Assets not elsewhere classified"
+      },
+      {
+        "cell": "D52",
+        "row": 52,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D8",
+        "row_label": "Property, plant and equipment"
+      },
+      {
+        "cell": "D53",
+        "row": 53,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D9",
+        "row_label": "Goodwill and intangible assets"
+      },
+      {
+        "cell": "E53",
+        "row": 53,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=D53",
+        "row_label": "Goodwill and intangible assets"
+      },
+      {
+        "cell": "F53",
+        "row": 53,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=E53",
+        "row_label": "Goodwill and intangible assets"
+      },
+      {
+        "cell": "G53",
+        "row": 53,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=F53",
+        "row_label": "Goodwill and intangible assets"
+      },
+      {
+        "cell": "H53",
+        "row": 53,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=G53",
+        "row_label": "Goodwill and intangible assets"
+      },
+      {
+        "cell": "I53",
+        "row": 53,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=H53",
+        "row_label": "Goodwill and intangible assets"
+      },
+      {
+        "cell": "J53",
+        "row": 53,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=I53",
+        "row_label": "Goodwill and intangible assets"
+      },
+      {
+        "cell": "E55",
+        "row": 55,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=D55",
+        "row_label": "Current liabilities"
+      },
+      {
+        "cell": "F55",
+        "row": 55,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=E55",
+        "row_label": "Current liabilities"
+      },
+      {
+        "cell": "G55",
+        "row": 55,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=F55",
+        "row_label": "Current liabilities"
+      },
+      {
+        "cell": "H55",
+        "row": 55,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=G55",
+        "row_label": "Current liabilities"
+      },
+      {
+        "cell": "I55",
+        "row": 55,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=H55",
+        "row_label": "Current liabilities"
+      },
+      {
+        "cell": "J55",
+        "row": 55,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=I55",
+        "row_label": "Current liabilities"
+      },
+      {
+        "cell": "D56",
+        "row": 56,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D10",
+        "row_label": "Non-current liabilities (debt)"
+      },
+      {
+        "cell": "D57",
+        "row": 57,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D11",
+        "row_label": "Shareholders' equity"
+      },
+      {
+        "cell": "E57",
+        "row": 57,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=D57",
+        "row_label": "Shareholders' equity"
+      },
+      {
+        "cell": "F57",
+        "row": 57,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=E57",
+        "row_label": "Shareholders' equity"
+      },
+      {
+        "cell": "G57",
+        "row": 57,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=F57",
+        "row_label": "Shareholders' equity"
+      },
+      {
+        "cell": "H57",
+        "row": 57,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=G57",
+        "row_label": "Shareholders' equity"
+      },
+      {
+        "cell": "I57",
+        "row": 57,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=H57",
+        "row_label": "Shareholders' equity"
+      },
+      {
+        "cell": "J57",
+        "row": 57,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=I57",
+        "row_label": "Shareholders' equity"
+      },
+      {
+        "cell": "D65",
+        "row": 65,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D37",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "E65",
+        "row": 65,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=E37",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "F65",
+        "row": 65,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=F37",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "G65",
+        "row": 65,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=G37",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "H65",
+        "row": 65,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=H37",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "I65",
+        "row": 65,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=I37",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "J65",
+        "row": 65,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=J37",
+        "row_label": "EBITDA (Cash flow from operating activities)"
+      },
+      {
+        "cell": "D66",
+        "row": 66,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D39",
+        "row_label": "Depreciation (incl. amortisation)"
+      },
+      {
+        "cell": "E66",
+        "row": 66,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=E39",
+        "row_label": "Depreciation (incl. amortisation)"
+      },
+      {
+        "cell": "F66",
+        "row": 66,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=F39",
+        "row_label": "Depreciation (incl. amortisation)"
+      },
+      {
+        "cell": "G66",
+        "row": 66,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=G39",
+        "row_label": "Depreciation (incl. amortisation)"
+      },
+      {
+        "cell": "H66",
+        "row": 66,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=H39",
+        "row_label": "Depreciation (incl. amortisation)"
+      },
+      {
+        "cell": "I66",
+        "row": 66,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=I39",
+        "row_label": "Depreciation (incl. amortisation)"
+      },
+      {
+        "cell": "J66",
+        "row": 66,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=J39",
+        "row_label": "Depreciation (incl. amortisation)"
+      },
+      {
+        "cell": "D70",
+        "row": 70,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D42",
+        "row_label": "Corporate tax on EBT"
+      },
+      {
+        "cell": "E70",
+        "row": 70,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=E42",
+        "row_label": "Corporate tax on EBT"
+      },
+      {
+        "cell": "F70",
+        "row": 70,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=F42",
+        "row_label": "Corporate tax on EBT"
+      },
+      {
+        "cell": "G70",
+        "row": 70,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=G42",
+        "row_label": "Corporate tax on EBT"
+      },
+      {
+        "cell": "H70",
+        "row": 70,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=H42",
+        "row_label": "Corporate tax on EBT"
+      },
+      {
+        "cell": "I70",
+        "row": 70,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=I42",
+        "row_label": "Corporate tax on EBT"
+      },
+      {
+        "cell": "J70",
+        "row": 70,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=J42",
+        "row_label": "Corporate tax on EBT"
+      },
+      {
+        "cell": "D86",
+        "row": 86,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D23",
+        "row_label": "Decrease (increase) in debt"
+      },
+      {
+        "cell": "D87",
+        "row": 87,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D24",
+        "row_label": "Decrease (increase) in other liabilities"
+      },
+      {
+        "cell": "D89",
+        "row": 89,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D26",
+        "row_label": "Decrease (increase) in equity"
+      },
+      {
+        "cell": "D90",
+        "row": 90,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D27",
+        "row_label": "Decrease (increase) in other equity equivalents"
+      },
+      {
+        "cell": "D94",
+        "row": 94,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=D6",
+        "row_label": "Opening cash and cash equivalents"
+      },
+      {
+        "cell": "E94",
+        "row": 94,
+        "col": 5,
+        "col_letter": "E",
+        "formula": "=D97",
+        "row_label": "Opening cash and cash equivalents"
+      },
+      {
+        "cell": "F94",
+        "row": 94,
+        "col": 6,
+        "col_letter": "F",
+        "formula": "=E97",
+        "row_label": "Opening cash and cash equivalents"
+      },
+      {
+        "cell": "G94",
+        "row": 94,
+        "col": 7,
+        "col_letter": "G",
+        "formula": "=F97",
+        "row_label": "Opening cash and cash equivalents"
+      },
+      {
+        "cell": "H94",
+        "row": 94,
+        "col": 8,
+        "col_letter": "H",
+        "formula": "=G97",
+        "row_label": "Opening cash and cash equivalents"
+      },
+      {
+        "cell": "I94",
+        "row": 94,
+        "col": 9,
+        "col_letter": "I",
+        "formula": "=H97",
+        "row_label": "Opening cash and cash equivalents"
+      },
+      {
+        "cell": "J94",
+        "row": 94,
+        "col": 10,
+        "col_letter": "J",
+        "formula": "=I97",
+        "row_label": "Opening cash and cash equivalents"
+      },
+      {
+        "cell": "D96",
+        "row": 96,
+        "col": 4,
+        "col_letter": "D",
+        "formula": "=Actual!K72",
+        "row_label": "Effect of foreign exchange rate changes"
+      }
+    ]
+  },
+  "sheet_info": {
+    "rows": 97,
+    "columns": 16
+  }
+}
