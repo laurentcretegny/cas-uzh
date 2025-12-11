@@ -1,0 +1,16 @@
+Restaurant,ID,Dish,Dish Category,Ingredients,Price
+Zeughauskeller Zurich,S001,Beef broth with finely shredded crepe,Homemade Soups,"Beef broth, finely shredded crepe",8.00 CHF
+Zeughauskeller Zurich,S002,Seasonal soup,Homemade Soups,Seasonal ingredients,9.00 CHF
+Zeughauskeller Zurich,SA001,Mixed salad,Fresh Salads,Mixed green salad,9.50 CHF
+Zeughauskeller Zurich,CP001,Beefsteak Tartare,Cold Platters,"Raw beef tartare (mild or spicy), salad garnish, toast, butter",32.00 CHF (regular portion)
+Zeughauskeller Zurich,CP002,Sliced air-dried mountain ham and beef with Swiss Gruyère,Cold Platters,"Air-dried mountain ham, air-dried mountain beef, shaved Swiss Gruyère cheese",24.50 CHF
+Zeughauskeller Zurich,SH001,Kalbsgeschnetzeltes nach Zürcher Art,Specialities of the House,"Panfried sliced veal, mushrooms, creamy white-wine sauce",36.50 CHF
+Zeughauskeller Zurich,SH002,Mayor's sword,Specialities of the House,"400g marinated baby-beef steaks, mixed salad, Rösti or French fries, curry-garlic and barbecue sauce",88.00 CHF (for 2 persons)
+Zeughauskeller Zurich,SH003,Whole pork shank,Specialities of the House,"Marinated pork shank with herbs, oven-roasted, dark draught beer, fresh potato salad",33.00 CHF
+Zeughauskeller Zurich,SH004,Deep fried perch fillets,Specialities of the House,"Perch fillets, boiled potatoes, tartar sauce",31.00 CHF
+Zeughauskeller Zurich,SF001,The original Kalbsbratwurst,Our Sausage Favourites,"Pan fried veal sausage (made in Zurich), onion sauce, homemade potato salad",20.00 CHF
+Zeughauskeller Zurich,SF002,Zwingli sausage,Our Sausage Favourites,"Grilled pork sausage with herbs and pistachio pieces (recipe from 1519), onion sauce, homemade potato salad",22.00 CHF
+Zeughauskeller Zurich,SF003,Vaudois Saucisson,Our Sausage Favourites,"Smoked pork sausage with bacon, white wine, traditional spice mixture, sauerkraut, boiled potatoes",29.00 CHF
+Zeughauskeller Zurich,AG001,Älplermagronen,Always a good choice,"Alpine Macaroni (Swiss specialty), potato cubes, onions, cream sauce",21.50 CHF
+Zeughauskeller Zurich,AG002,Zeughauskeller-Burger,Always a good choice,"2x 120g beef burgers (100% beef), coleslaw, fried onions, bacon, BBQ-sauce, French fries",28.00 CHF
+Zeughauskeller Zurich,LD001,Tender chicken breast,Light dishes,"Swiss Gourmet chicken (crumbed and crispy or grilled), green salad",28.00 CHF

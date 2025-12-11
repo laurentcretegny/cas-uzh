@@ -1,0 +1,16 @@
+Restaurant,ID,Dish,Dish Category,Ingredients,Price
+La Fonte Restaurant Pizzeria,A001,Bruschettone,Antipasti,"Geröstete Brotscheibe, Tomatenwürfel, Knoblauch",10.00 CHF
+La Fonte Restaurant Pizzeria,A002,Carpaccio di manzo,Antipasti,"Rindscarpaccio, Rucola, Grana",24.00 CHF
+La Fonte Restaurant Pizzeria,S001,Insalata con pollo,Insalate,"Gemischter Blattsalat, Cherry, Pouletstreifen",14.00 CHF (Klein) / 18.00 CHF (Groß)
+La Fonte Restaurant Pizzeria,S002,Caprese,Insalate,"Tomaten, Büffelmozzarella",12.00 CHF (Klein) / 16.00 CHF (Groß)
+La Fonte Restaurant Pizzeria,P001,Spaghetti Bolognese,Primi Piatti,Rindsbolognesesauce,21.90 CHF
+La Fonte Restaurant Pizzeria,P002,Strozzapreti Campagnole,Primi Piatti,"Speck, schwarzer Trüffel, Rahm",31.50 CHF
+La Fonte Restaurant Pizzeria,P003,Gnocchi Al zafferano,Primi Piatti,"Safran, Cherry, Burrata",29.70 CHF
+La Fonte Restaurant Pizzeria,PC001,Pizza Margherita,Pizze Classiche,"Tomaten, Mozzarella, Oregano, Basilikum",16.90 CHF
+La Fonte Restaurant Pizzeria,PC002,Pizza Prosciutto e funghi,Pizze Classiche,"Tomaten, Mozzarella, Hinterschinken, frische Champignons, Oregano, Basilikum",19.90 CHF
+La Fonte Restaurant Pizzeria,PC003,Pizza 4 Formaggi,Pizze Classiche,"Tomaten, Mozzarella, Gorgonzola, Mascarpone, Grana, Oregano, Basilikum",21.90 CHF
+La Fonte Restaurant Pizzeria,PS001,Pizza Anna,Pizze Speciali,"Tomaten, Mozzarella, Rohschinken, Cherry, Rucola, Grana, Burrata, Oregano, Basilikum",29.50 CHF
+La Fonte Restaurant Pizzeria,PS002,Pizza Molisana,Pizze Speciali,"Mozzarella, Salsiccia scharf, Provola, schwarzer Trüffel, Oregano, Basilikum",32.00 CHF
+La Fonte Restaurant Pizzeria,PS003,Pizza Biancaneve,Pizze Speciali,"Mozzarella, Salsiccia scharf, Kartoffeln, Peperoni, Oregano, Basilikum",24.90 CHF
+La Fonte Restaurant Pizzeria,C001,Calzone della Casa,Il Nostro Calzone,"Tomaten, Mozzarella, Hinterschinken, frische Champignons, Knoblauch, Ei, Pesto, Grana",27.50 CHF
+La Fonte Restaurant Pizzeria,D001,Tiramisù,I nostri Dessert,Hausgemachtes Tiramisu,9.50 CHF

@@ -1,0 +1,35 @@
+{
+  "name": "CAS-UZH Dev Container with GPU",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  
+  // Enable GPU passthrough
+  "runArgs": [
+    "--gpus=all"
+  ],
+  
+  // Add NVIDIA CUDA support
+  "features": {
+    "ghcr.io/devcontainers/features/nvidia-cuda:1": {
+      "installCudnn": true
+    }
+  },
+  
+  // Install Python packages after container creation
+  "postCreateCommand": "pip install --upgrade pip && pip install tensorflow numpy matplotlib jupyter",
+  
+  // Configure VS Code settings
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      }
+    }
+  },
+  
+  // Keep container running
+  "overrideCommand": false
+}
